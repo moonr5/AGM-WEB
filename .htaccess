@@ -1,5 +1,12 @@
 DirectoryIndex index.html en/index.html
 
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Hostinger Git deploy does not pull Git LFS — serve p9 until p8 is uploaded manually
+  RewriteRule ^en/p8\.mp4$ /en/p9.mp4 [L]
+  RewriteRule ^hubfs/arts%20and%20culture/foundation/thumb\.mp4$ /en/v1.mp4 [L]
+</IfModule>
+
 AddType application/javascript .js .mjs
 AddType text/css .css
 AddType image/svg+xml .svg
