@@ -3,7 +3,7 @@ const http = require("http");
 const path = require("path");
 
 const PORT = Number(process.env.PORT || 8080);
-const ROOT = path.resolve(__dirname, "website_backup");
+const ROOT = path.resolve(__dirname);
 const GREEN_FALLBACK_IMAGE = path.join(ROOT, "hubfs", "placeholder-green.svg");
 const PURPLE_FALLBACK_IMAGES = {
   landscape: path.join(ROOT, "en", "images", "fallback-purple", "purple-landscape.jpg"),

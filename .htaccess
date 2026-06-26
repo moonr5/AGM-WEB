@@ -1,4 +1,4 @@
-DirectoryIndex index.html
+DirectoryIndex index.html en/index.html
 
 AddType application/javascript .js .mjs
 AddType text/css .css

@@ -24,4 +24,4 @@ http://localhost:8080/en/about
 http://localhost:8080/en/our-fleet
 ```
 
-`npm run prepare` downloads missing mirrored assets and rewrites Sanlorenzo/HubSpot asset URLs to local paths. `npm start` serves `website_backup` and supports extensionless routes like `/en/about`.
+`npm run prepare` downloads missing mirrored assets and rewrites Sanlorenzo/HubSpot asset URLs to local paths. `npm start` serves the site from the repository root and supports extensionless routes like `/en/about`.
