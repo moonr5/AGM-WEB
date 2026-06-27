@@ -6,7 +6,19 @@ const FILES = ["index.html", "en/index.html"];
 
 const REPLACEMENTS = [
   [
+    "hubfs/146466316/news\\u002Fthird%20paradise\\u002FAGM vessel charter.jpg",
+    "en/images/company-profile/vessel-charter.jpg",
+  ],
+  [
+    "hubfs\\u002F146466316\\u002Fnews\\u002Fthird%20paradise\\u002FAGM vessel charter.jpg",
+    "en/images/company-profile/vessel-charter.jpg",
+  ],
+  [
     "hubfs\\u002F146466316\\u002Fnews\\u002Fthird%20paradise\\u002FMassimo-Perotti-&-Michelangelo-Pistoletto-(1).jpg",
+    "en/images/company-profile/vessel-charter.jpg",
+  ],
+  [
+    "hubfs/146466316/news/third%20paradise/AGM vessel charter.jpg",
     "en/images/company-profile/vessel-charter.jpg",
   ],
   [
@@ -14,12 +26,24 @@ const REPLACEMENTS = [
     "en/images/company-profile/vessel-charter.jpg",
   ],
   [
+    /hubfs\/146466316\/news\\u002F[^"\\]+/g,
+    "en/images/company-profile/vessel-charter.jpg",
+  ],
+  [
     "Michelangelo Pistoletto and the reinterpretation of Third Paradise",
     "AGM fleet expansion and new crewboat charter services",
   ],
   [
+    "THIRD PARADISE QUICK RESPONSE - Venice, 2024",
+    "AGM Crewboat Charter - Marunda, 2025",
+  ],
+  [
+    "\\u002Fen\\u002Fsustainability\\u002F\\u002Fthird-paradise",
+    "\\u002Fen\\u002Fsustainability\\u002F",
+  ],
+  [
     "Massimo-Perotti-&-Michelangelo-Pistoletto-(1)",
-    "AGM vessel charter",
+    "AGM-vessel-charter",
   ],
   ["/en/about//", "/en/about/"],
   ["/en/sustainability//", "/en/sustainability/"],
@@ -34,7 +58,8 @@ function fixFile(rel) {
   const original = text;
 
   for (const [from, to] of REPLACEMENTS) {
-    text = text.split(from).join(to);
+    if (from instanceof RegExp) text = text.replace(from, to);
+    else text = text.split(from).join(to);
   }
 
   text = text.replace(
