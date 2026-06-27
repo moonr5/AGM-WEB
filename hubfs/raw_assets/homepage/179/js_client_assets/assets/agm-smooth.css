@@ -17,6 +17,8 @@ video {
 ._container_1im41_1 video,
 ._pinnedSection_biyw3_1 video {
   pointer-events: none;
+  background: #0a1628 center / cover no-repeat;
+  background-image: url("/hubfs/raw_assets/homepage/179/js_client_assets/assets/9_Loader_Manifesto-D7fJBKYS.jpg");
 }
 
 ._overlay_ty1x2_22,
