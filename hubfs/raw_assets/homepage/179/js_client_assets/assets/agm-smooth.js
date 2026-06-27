@@ -1,24 +1,4 @@
 (function () {
-  const HERO_WARM_SRC = "/en/p8.mp4";
-
-  function warmVideo(src) {
-    const video = document.createElement("video");
-    video.preload = "metadata";
-    video.muted = true;
-    video.playsInline = true;
-    video.src = src;
-    video.load();
-  }
-
-  function scheduleHeroWarm() {
-    const run = () => warmVideo(HERO_WARM_SRC);
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(run, { timeout: 4000 });
-    } else {
-      setTimeout(run, 2000);
-    }
-  }
-
   function prepareLoaderImages() {
     document.querySelectorAll("._heroImages_biyw3_32 img").forEach((img, index) => {
       img.decoding = "async";
@@ -72,13 +52,11 @@
       "DOMContentLoaded",
       () => {
         prepareLoaderImages();
-        scheduleHeroWarm();
       },
       { once: true },
     );
   } else {
     prepareLoaderImages();
-    scheduleHeroWarm();
   }
 
   scan(document);

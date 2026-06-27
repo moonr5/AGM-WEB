@@ -1,7 +1,0 @@
-/* Desktop-on-mobile mode: layout is unchanged; agm-mobile.js sets a fixed desktop viewport width. */
-
-html.agm-menu-open,
-html.agm-menu-open body {
-  overflow: hidden !important;
-  touch-action: none;
-}
