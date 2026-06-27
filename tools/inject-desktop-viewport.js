@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const INLINE = `<script id="agm-desktop-viewport">(function(){var W=1280,d=document,m=d.querySelector('meta[name="viewport"]');if(!m){m=d.createElement("meta");m.name="viewport";(d.head||d.documentElement).appendChild(m);}var sw=window.innerWidth||window.screen.width;if(sw<W){m.setAttribute("content","width="+W+",initial-scale="+(sw/W)+",viewport-fit=cover");}})();</script>`;
+const INLINE = ``;
 
 function walk(dir, files = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

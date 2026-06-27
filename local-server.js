@@ -71,25 +71,8 @@ function pickPurpleFallback(pathname) {
   return PURPLE_FALLBACK_IMAGES.landscape;
 }
 
-const AGM_DESKTOP_VIEWPORT_SCRIPT =
-  '<script id="agm-desktop-viewport">(function(){var W=1280,d=document,m=d.querySelector(\'meta[name="viewport"]\');if(!m){m=d.createElement("meta");m.name="viewport";(d.head||d.documentElement).appendChild(m);}var sw=window.innerWidth||window.screen.width;if(sw<W){m.setAttribute("content","width="+W+",initial-scale="+(sw/W)+",viewport-fit=cover");}})();</script>';
-
-const AGM_MOBILE_SNIPPET = [
-  AGM_DESKTOP_VIEWPORT_SCRIPT,
-  '<link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.css?v=3">',
-  '<script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.js?v=3"></script>',
-].join("\n");
-
-function injectMobileAssets(html) {
-  if (!html.includes("</head>") || html.includes("agm-mobile.css?v=3")) {
-    return html;
-  }
-  return html.replace("</head>", `${AGM_MOBILE_SNIPPET}\n</head>`);
-}
-
 function localizeText(text) {
-  return injectMobileAssets(
-    text
+  return text
     .replaceAll("https://www.sanlorenzoyacht.com/hubfs/", "/hubfs/")
     .replaceAll("https://www.sanlorenzoyacht.com/hs/", "/hs/")
     .replaceAll("https://www.sanlorenzoyacht.com/en/", "/en/")
@@ -115,8 +98,7 @@ function localizeText(text) {
     .replaceAll("https:\\/\\/localhost:8080\\/", "\\/")
     .replaceAll("https:\\/\\/www.sanlorenzoyacht.com\\/hubfs\\/", "\\/hubfs\\/")
     .replaceAll("https:\\/\\/www.sanlorenzoyacht.com\\/hs\\/", "\\/hs\\/")
-    .replaceAll("https:\\/\\/146466316.fs1.hubspotusercontent-eu1.net\\/hubfs\\/", "\\/hubfs\\/")
-  );
+    .replaceAll("https:\\/\\/146466316.fs1.hubspotusercontent-eu1.net\\/hubfs\\/", "\\/hubfs\\/");
 }
 
 function resolveRequest(url) {
