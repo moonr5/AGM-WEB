@@ -483,11 +483,11 @@ video {
         <div class="models-column-title">Boats</div>
 
         <a href="/en/our-fleet?range=sl" class="menu-label model">
-          <span class="span">SL LINE</span>
+          <span class="span">Harvester I</span>
         </a>
 
         <a href="/en/our-fleet?range=sd" class="menu-label model">
-          <span class="span">SD LINE</span>
+          <span class="span">Harvester II</span>
         </a>
 
         <a href="/en/our-fleet?range=sx" class="menu-label model">
@@ -631,8 +631,8 @@ video {
               </span>
           </button>
           <div class="accordionContent">
-<!--             <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+<!--             <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -649,8 +649,8 @@ video {
 
             <!-- Boats -->
             <div class="mobile-subtitle">Boats</div>
-            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -823,11 +823,11 @@ video {
         <div class="models-column-title">Boats</div>
 
         <a href="/fr/our-fleet?range=sl" class="menu-label model">
-          <span class="span">SL LINE</span>
+          <span class="span">Harvester I</span>
         </a>
 
         <a href="/fr/our-fleet?range=sd" class="menu-label model">
-          <span class="span">SD LINE</span>
+          <span class="span">Harvester II</span>
         </a>
 
         <a href="/fr/our-fleet?range=sx" class="menu-label model">
@@ -912,8 +912,8 @@ video {
             </span>
         </button>
         <div class="accordionContent">
-<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
-          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">Harvester I</a>
+          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">Harvester II</a>
           <a class="subA" href="/fr/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
           <a class="subA" href="/fr/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
           <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -930,8 +930,8 @@ video {
 
             <!-- Boats -->
             <div class="mobile-subtitle">Boats</div>
-            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/fr/our-fleet/she">SHE</a>
@@ -1053,11 +1053,11 @@ video {
         <div class="models-column-title">Boats</div>
 
         <a href="/fr/our-fleet?range=sl" class="menu-label model">
-          <span class="span">SL LINE</span>
+          <span class="span">Harvester I</span>
         </a>
 
         <a href="/fr/our-fleet?range=sd" class="menu-label model">
-          <span class="span">SD LINE</span>
+          <span class="span">Harvester II</span>
         </a>
 
         <a href="/fr/our-fleet?range=sx" class="menu-label model">
@@ -1142,8 +1142,8 @@ video {
             </span>
         </button>
         <div class="accordionContent">
-<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
-          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">Harvester I</a>
+          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">Harvester II</a>
           <a class="subA" href="/fr/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
           <a class="subA" href="/fr/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
           <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -1159,8 +1159,8 @@ video {
 
             <!-- Boats -->
             <div class="mobile-subtitle">Boats</div>
-            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/fr/our-fleet/she">SHE</a>
@@ -1283,11 +1283,11 @@ video {
         <div class="models-column-title">Boats</div>
 
         <a href="/fr/our-fleet?range=sl" class="menu-label model">
-          <span class="span">SL LINE</span>
+          <span class="span">Harvester I</span>
         </a>
 
         <a href="/fr/our-fleet?range=sd" class="menu-label model">
-          <span class="span">SD LINE</span>
+          <span class="span">Harvester II</span>
         </a>
 
         <a href="/fr/our-fleet?range=sx" class="menu-label model">
@@ -1372,8 +1372,8 @@ video {
             </span>
         </button>
         <div class="accordionContent">
-<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
-          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+<!--           <a class="subA" href="/fr/our-fleet?range=sl&amp;hsLang=en">Harvester I</a>
+          <a class="subA" href="/fr/our-fleet?range=sd&amp;hsLang=en">Harvester II</a>
           <a class="subA" href="/fr/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
           <a class="subA" href="/fr/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
           <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -1389,8 +1389,8 @@ video {
 
             <!-- Boats -->
             <div class="mobile-subtitle">Boats</div>
-            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/fr/our-fleet/she">SHE</a>
@@ -1531,11 +1531,11 @@ video {
         <div class="models-column-title">Boats</div>
 
         <a href="/en/our-fleet?range=sl" class="menu-label model">
-          <span class="span">SL LINE</span>
+          <span class="span">Harvester I</span>
         </a>
 
         <a href="/en/our-fleet?range=sd" class="menu-label model">
-          <span class="span">SD LINE</span>
+          <span class="span">Harvester II</span>
         </a>
 
         <a href="/en/our-fleet?range=sx" class="menu-label model">
@@ -1675,8 +1675,8 @@ video {
               </span>
           </button>
           <div class="accordionContent">
-<!--             <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+<!--             <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -1693,8 +1693,8 @@ video {
 
             <!-- Boats -->
             <div class="mobile-subtitle">Boats</div>
-            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
-            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sl">Harvester I</a>
+            <a class="subA" href="/en/our-fleet?range=sd">Harvester II</a>
             <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
             <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
             <a class="subA" href="/en/our-fleet/she">SHE</a>
@@ -1905,7 +1905,7 @@ YOUR VISION MADE REAL.</div><a href="#range" class="_discover_ty1x2_126"><div>Di
     </script>
       
   <script type="text/javascript">
-    var newIslands = [{"clientOnly":true,"hydrateOn":"load","id":"range","moduleId":"components\u002Fmodules\u002FRange\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"button":"Discover all","description":"Multi-purpose crewboats ready for charter. Additional vessels under construction to meet growing demand.","lines":[{"description":"The signature.","image":{"alt":"SL110_v002","height":1080,"loading":"disabled","size_type":null,"src":"en/p2.png","width":1920},"metric":{"alt":"Metric_scale_SL","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SL.svg","width":907},"metricMobile":{"alt":"scale_3_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_3_m.svg","width":440},"names":[{"line":"SL86A","link":"\u002Four-fleet\u002Fsl86a"},{"line":"SL90A","link":"\u002Four-fleet\u002Fsl90a"},{"line":"SL96A","link":"\u002Four-fleet\u002Fsl96a"},{"line":"SL110A","link":"\u002Four-fleet\u002Fsl110a"},{"line":"SL120A","link":"\u002Four-fleet\u002Fsl120a"}],"title":"SL"},{"description":"An icon of voyaging.","image":{"alt":"SD LINE","height":1080,"loading":"disabled","size_type":null,"src":"en/p5.png","width":1920},"metric":{"alt":"Metric_scale_SD","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SD.svg","width":907},"metricMobile":{"alt":"scale_4_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_4_m.svg","width":440},"names":[{"line":"SD90","link":"\u002Four-fleet\u002Fsd90"},{"line":"SD96","link":"\u002Fen\u002F"},{"line":"SD118","link":"\u002Four-fleet\u002Fsd118"},{"line":"SD132","link":"\u002Fen\u002F"}],"title":"SD"},{"description":"Built for your purpose.","image":{"alt":"CUSTOM","height":1080,"loading":"disabled","size_type":null,"src":"en/p3.png","width":1920},"metric":{"alt":"Metric_scale_SX","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SX.svg","width":907},"metricMobile":{"alt":"scale_5_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_5_m.svg","width":440},"names":[{"line":"SX76","link":"\u002Four-fleet\u002Fsx76"},{"line":"SX88","link":"\u002Fen\u002F"},{"line":"SX100","link":"\u002Four-fleet\u002Fsx100"},{"line":"SX120","link":"\u002Fen\u002F"}],"title":"CUSTOM"}],"title":"OUR FLEET"}},"supplementalFieldValues":{"button":{},"description":{},"discover":{},"lines":[{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}}],"title":{}},"url":"/hubfs/146466316/raw_assets\u002Fhomepage\u002F179\u002Fjs_client_assets\u002Fassets\u002Fisland-DJ-QQ3E8.js"}];
+    var newIslands = [{"clientOnly":true,"hydrateOn":"load","id":"range","moduleId":"components\u002Fmodules\u002FRange\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"button":"Discover all","description":"Multi-purpose crewboats ready for charter. Additional vessels under construction to meet growing demand.","lines":[{"description":"","image":{"alt":"SL110_v002","height":1080,"loading":"disabled","size_type":null,"src":"en/p2.png","width":1920},"metric":{"alt":"Metric_scale_SL","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SL.svg","width":907},"metricMobile":{"alt":"scale_3_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_3_m.svg","width":440},"names":[{"line":"SL86A","link":"\u002Four-fleet\u002Fsl86a"},{"line":"SL90A","link":"\u002Four-fleet\u002Fsl90a"},{"line":"SL96A","link":"\u002Four-fleet\u002Fsl96a"},{"line":"SL110A","link":"\u002Four-fleet\u002Fsl110a"},{"line":"SL120A","link":"\u002Four-fleet\u002Fsl120a"}],"title":"Harvester I"},{"description":"","image":{"alt":"Harvester II","height":1080,"loading":"disabled","size_type":null,"src":"en/p5.png","width":1920},"metric":{"alt":"Metric_scale_SD","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SD.svg","width":907},"metricMobile":{"alt":"scale_4_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_4_m.svg","width":440},"names":[{"line":"SD90","link":"\u002Four-fleet\u002Fsd90"},{"line":"SD96","link":"\u002Fen\u002F"},{"line":"SD118","link":"\u002Four-fleet\u002Fsd118"},{"line":"SD132","link":"\u002Fen\u002F"}],"title":"Harvester II"},{"description":"Built for your purpose.","image":{"alt":"CUSTOM","height":1080,"loading":"disabled","size_type":null,"src":"en/p3.png","width":1920},"metric":{"alt":"Metric_scale_SX","height":98,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fdesktop\u002FMetric_scale_SX.svg","width":907},"metricMobile":{"alt":"scale_5_m","height":49,"loading":"disabled","size_type":null,"src":"hubfs/146466316/Homepage\u002Fmetrics\u002Fmobile\u002Fscale_5_m.svg","width":440},"names":[{"line":"SX76","link":"\u002Four-fleet\u002Fsx76"},{"line":"SX88","link":"\u002Fen\u002F"},{"line":"SX100","link":"\u002Four-fleet\u002Fsx100"},{"line":"SX120","link":"\u002Fen\u002F"}],"title":"CUSTOM"}],"title":"OUR FLEET"}},"supplementalFieldValues":{"button":{},"description":{},"discover":{},"lines":[{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}},{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}},{"description":{},"image":{},"metric":{},"metricMobile":{},"names":[{"line":{},"link":{}}],"title":{}}],"title":{}},"url":"/hubfs/146466316/raw_assets\u002Fhomepage\u002F179\u002Fjs_client_assets\u002Fassets\u002Fisland-DJ-QQ3E8.js"}];
     if (Array.isArray(window.__islands)) {
       window.__islands.push(...newIslands);
     } else {
@@ -1971,7 +1971,7 @@ var hsVars = hsVars || {}; hsVars['language'] = 'it';
   
 </script>
 <script>
-function getCurrentLangSlug(){const[,lang]=window.location.pathname.split("/");return"it"===lang||"en"===lang?`/${lang}`:""}const langSlug=getCurrentLangSlug();function withLang(link){return!link.startsWith("/")||link.startsWith(langSlug)?link:`${langSlug}${link}`}const modelsLabel=document.getElementById("models"),artsCultureLabel=document.getElementById("arts-culture"),brandLabel=document.getElementById("brand"),modelsMobileLabel=document.getElementById("models-mobile"),artsCultureMobileLabel=document.getElementById("arts-culture-mobile"),brandMobileLabel=document.getElementById("brand-mobile"),isEn=!window.location.href.includes("/it");let translations={};translations={models:{title:"Boats",defaultImages:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet/50-steel")}],subcategories:[{key:"ourFleet",title:"FLEET",link:withLang("/our-fleet"),options:[{title:"SL LINE",link:withLang("/our-fleet?range=sl")},{title:"SD LINE",link:withLang("/our-fleet?range=sd")},{title:"SX LINE",link:withLang("/our-fleet?range=sx")},{title:"SP LINE",link:withLang("/our-fleet?range=sp")},{title:"SHE",link:withLang("/our-fleet/she")},{title:"ALLOY LINE",link:withLang("/our-fleet?range=alloy")},{title:"STEEL LINE",link:withLang("/our-fleet?range=steel")},{title:"EXPLORER LINE",link:withLang("/our-fleet?range=explorer")},{title:"X-SPACE LINE",link:withLang("/our-fleet?range=x-space")}],images:[{title:"OUR FLEET",src:`${assetBaseUrl}/our_fleet.jpg`,link:withLang("/our-fleet")}]},{key:"preOwned",title:"PRE-OWNED",link:withLang("/pre-owned"),images:[{title:"PRE-OWNED",src:`${assetBaseUrl}/preOwned.jpg`,link:"https://google.com"}]},{key:"services",title:"SERVICES",options:[{title:"Owner Care",link:withLang("/owner-care")},{title:"Charter Fleet",link:"https://sanlorenzocharterfleet.com"}],images:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet")}]},{key:"brandRepresentative",title:"BRAND REPRESENTATIVE",link:withLang("/brand-representative")}]},artsCulture:{title:"Arts and Culture",link:withLang("/arts-and-culture")},brand:{title:"Brand",defaultImages:[],subcategories:[{key:"about",title:"ABOUT",link:withLang("/about")},{key:"people",title:"PEOPLE",link:withLang("/people")},{key:"innovation",title:"SUSTAINABILITY",link:withLang("/sustainability")},{key:"corporate",title:"CORPORATE GOVERNANCE",link:withLang("/corporate")},{key:"news",title:"NEWS",link:withLang("/news-and-events")}]},search:{title:"Search",defaultImages:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet/50-steel")}],subcategories:[{key:"people",title:"PEOPLE",link:withLang("/people")},{key:"corporate",title:"CORPORATE GOVERNANCE",link:withLang("/corporate")},{key:"about",title:"ABOUT",link:withLang("/about")},{key:"innovation",title:"SUSTAINABILITY",link:withLang("/sustainability")}]}},null!=modelsLabel&&(modelsLabel.innerHTML=translations.models.title),null!=artsCultureLabel&&(artsCultureLabel.innerHTML=translations.artsCulture.title),null!=artsCultureLabel&&(artsCultureLabel.href=translations.artsCulture.link),null!=brandLabel&&(brandLabel.innerHTML=translations.brand.title),null!=modelsMobileLabel&&(modelsMobileLabel.innerHTML=translations.models.title),null!=artsCultureMobileLabel&&(artsCultureMobileLabel.innerHTML=translations.artsCulture.title),null!=artsCultureMobileLabel&&(artsCultureMobileLabel.href=translations.artsCulture.link),null!=brandMobileLabel&&(brandMobileLabel.innerHTML=translations.brand.title);
+function getCurrentLangSlug(){const[,lang]=window.location.pathname.split("/");return"it"===lang||"en"===lang?`/${lang}`:""}const langSlug=getCurrentLangSlug();function withLang(link){return!link.startsWith("/")||link.startsWith(langSlug)?link:`${langSlug}${link}`}const modelsLabel=document.getElementById("models"),artsCultureLabel=document.getElementById("arts-culture"),brandLabel=document.getElementById("brand"),modelsMobileLabel=document.getElementById("models-mobile"),artsCultureMobileLabel=document.getElementById("arts-culture-mobile"),brandMobileLabel=document.getElementById("brand-mobile"),isEn=!window.location.href.includes("/it");let translations={};translations={models:{title:"Boats",defaultImages:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet/50-steel")}],subcategories:[{key:"ourFleet",title:"FLEET",link:withLang("/our-fleet"),options:[{title:"Harvester I",link:withLang("/our-fleet?range=sl")},{title:"Harvester II",link:withLang("/our-fleet?range=sd")},{title:"SX LINE",link:withLang("/our-fleet?range=sx")},{title:"SP LINE",link:withLang("/our-fleet?range=sp")},{title:"SHE",link:withLang("/our-fleet/she")},{title:"ALLOY LINE",link:withLang("/our-fleet?range=alloy")},{title:"STEEL LINE",link:withLang("/our-fleet?range=steel")},{title:"EXPLORER LINE",link:withLang("/our-fleet?range=explorer")},{title:"X-SPACE LINE",link:withLang("/our-fleet?range=x-space")}],images:[{title:"OUR FLEET",src:`${assetBaseUrl}/our_fleet.jpg`,link:withLang("/our-fleet")}]},{key:"preOwned",title:"PRE-OWNED",link:withLang("/pre-owned"),images:[{title:"PRE-OWNED",src:`${assetBaseUrl}/preOwned.jpg`,link:"https://google.com"}]},{key:"services",title:"SERVICES",options:[{title:"Owner Care",link:withLang("/owner-care")},{title:"Charter Fleet",link:"https://sanlorenzocharterfleet.com"}],images:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet")}]},{key:"brandRepresentative",title:"BRAND REPRESENTATIVE",link:withLang("/brand-representative")}]},artsCulture:{title:"Arts and Culture",link:withLang("/arts-and-culture")},brand:{title:"Brand",defaultImages:[],subcategories:[{key:"about",title:"ABOUT",link:withLang("/about")},{key:"people",title:"PEOPLE",link:withLang("/people")},{key:"innovation",title:"SUSTAINABILITY",link:withLang("/sustainability")},{key:"corporate",title:"CORPORATE GOVERNANCE",link:withLang("/corporate")},{key:"news",title:"NEWS",link:withLang("/news-and-events")}]},search:{title:"Search",defaultImages:[{title:"SHE",src:`${assetBaseUrl}/she.png`,link:withLang("/our-fleet/she")},{title:"50 Steel",src:`${assetBaseUrl}/steel_50.png`,link:withLang("/our-fleet/50-steel")}],subcategories:[{key:"people",title:"PEOPLE",link:withLang("/people")},{key:"corporate",title:"CORPORATE GOVERNANCE",link:withLang("/corporate")},{key:"about",title:"ABOUT",link:withLang("/about")},{key:"innovation",title:"SUSTAINABILITY",link:withLang("/sustainability")}]}},null!=modelsLabel&&(modelsLabel.innerHTML=translations.models.title),null!=artsCultureLabel&&(artsCultureLabel.innerHTML=translations.artsCulture.title),null!=artsCultureLabel&&(artsCultureLabel.href=translations.artsCulture.link),null!=brandLabel&&(brandLabel.innerHTML=translations.brand.title),null!=modelsMobileLabel&&(modelsMobileLabel.innerHTML=translations.models.title),null!=artsCultureMobileLabel&&(artsCultureMobileLabel.innerHTML=translations.artsCulture.title),null!=artsCultureMobileLabel&&(artsCultureMobileLabel.href=translations.artsCulture.link),null!=brandMobileLabel&&(brandMobileLabel.innerHTML=translations.brand.title);
 //# sourceURL=/hubfs/146466316/hub_generated/template_assets/1/303281826017/1780912272429/template_labels.js
 </script>
 <script>

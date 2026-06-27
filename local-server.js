@@ -72,8 +72,8 @@ function pickPurpleFallback(pathname) {
 }
 
 const AGM_MOBILE_SNIPPET = [
-  '<link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.css">',
-  '<script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.js"></script>',
+  '<link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.css?v=2">',
+  '<script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.js?v=2"></script>',
 ].join("\n");
 
 function injectMobileAssets(html) {
