@@ -18,6 +18,7 @@ const ENCODING_FIXES = [
   ["â€º", "›"],
   ["Ã¢â‚¬â€œ", "–"],
   ["Ã¢â‚¬â€", "—"],
+  ["Ã¢â‚¬\"", " - "],
   ["Â©", "©"],
   ["â€\u008d", ""],
   ["handsâ€‘on", "hands-on"],
@@ -65,7 +66,6 @@ const HOMEPAGE_FIXES = [
   ["/en/team", "/en/about/"],
   ["/en/Boats-for-sale", "/en/services/"],
   ["/en/Boats-for-sale?filter=pre-owned", "/en/services/"],
-  ["/charter", "/en/services/"],
 ];
 
 function walk(dir, files = []) {
