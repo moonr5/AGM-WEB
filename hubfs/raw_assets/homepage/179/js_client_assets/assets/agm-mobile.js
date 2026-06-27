@@ -1,42 +1,51 @@
 (function () {
   "use strict";
 
+  /** Desktop layout width — page renders at this width and scales down on phones. */
+  var DESKTOP_WIDTH = 1280;
+  /** Viewports at or above this width use normal responsive meta. */
+  var DESKTOP_BREAKPOINT = 1280;
+
+  function applyDesktopViewport() {
+    var meta = document.querySelector('meta[name="viewport"]');
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "viewport");
+      document.head.appendChild(meta);
+    }
+
+    var screenWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      screen.width;
+
+    if (screenWidth >= DESKTOP_BREAKPOINT) {
+      meta.setAttribute(
+        "content",
+        "width=device-width, initial-scale=1, viewport-fit=cover"
+      );
+      document.documentElement.classList.remove("agm-desktop-scaled");
+      return;
+    }
+
+    var scale = Math.max(0.1, screenWidth / DESKTOP_WIDTH);
+    meta.setAttribute(
+      "content",
+      "width=" +
+        DESKTOP_WIDTH +
+        ", initial-scale=" +
+        scale +
+        ", viewport-fit=cover"
+    );
+    document.documentElement.classList.add("agm-desktop-scaled");
+    document.documentElement.style.setProperty("--agm-desktop-width", DESKTOP_WIDTH + "px");
+  }
+
   function setViewportHeight() {
-    var h = window.innerHeight;
-    document.documentElement.style.setProperty("--agm-vh", h + "px");
+    document.documentElement.style.setProperty("--agm-vh", window.innerHeight + "px");
     document.documentElement.style.setProperty("--agm-vw", window.innerWidth + "px");
   }
 
-  function ensureViewportMeta() {
-    var meta = document.querySelector('meta[name="viewport"]');
-    if (!meta) return;
-
-    var content = meta.getAttribute("content") || "";
-    var next = content;
-
-    if (!/width=device-width/.test(next)) {
-      next = "width=device-width, initial-scale=1" + (next ? ", " + next : "");
-    }
-    if (!/viewport-fit=cover/.test(next)) {
-      next += ", viewport-fit=cover";
-    }
-
-    meta.setAttribute("content", next);
-  }
-
-  /** Replace inline 100vw widths that cause horizontal scroll on mobile */
-  function fixInlineViewportWidths() {
-    var nodes = document.querySelectorAll("[style]");
-    for (var i = 0; i < nodes.length; i++) {
-      var el = nodes[i];
-      var style = el.getAttribute("style") || "";
-      if (!/100vw/i.test(style)) continue;
-      el.style.width = "100%";
-      el.style.maxWidth = "100%";
-    }
-  }
-
-  /** Prevent body scroll when HubSpot mobile drawer is open */
   function bindMenuScrollLock() {
     var overlay = document.getElementById("overlay");
     var mobileMenu = document.querySelector(".mobile-menu");
@@ -69,30 +78,26 @@
   }
 
   function init() {
-    ensureViewportMeta();
+    applyDesktopViewport();
     setViewportHeight();
-    fixInlineViewportWidths();
     bindMenuScrollLock();
 
     var resizeTimer;
     function onResize() {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(function () {
+        applyDesktopViewport();
         setViewportHeight();
-        fixInlineViewportWidths();
       }, 100);
     }
 
     window.addEventListener("resize", onResize, { passive: true });
-    window.addEventListener("orientationchange", setViewportHeight, { passive: true });
-
-    if (window.visualViewport) {
-      window.visualViewport.addEventListener("resize", onResize, { passive: true });
-    }
-
-    /* Re-run after React island hydration */
-    setTimeout(fixInlineViewportWidths, 500);
-    setTimeout(fixInlineViewportWidths, 2000);
+    window.addEventListener("orientationchange", function () {
+      setTimeout(function () {
+        applyDesktopViewport();
+        setViewportHeight();
+      }, 150);
+    }, { passive: true });
   }
 
   if (document.readyState === "loading") {
