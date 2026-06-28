@@ -1946,17 +1946,14 @@ var hsVars = {
 
       function refreshScrollTriggers() {
         if (window.gsap?.ScrollTrigger) {
-          window.gsap.ScrollTrigger.refresh(true);
+          window.gsap.ScrollTrigger.refresh();
         }
       }
 
       window.refreshScrollTriggers = refreshScrollTriggers;
 
-      window.addEventListener('load', refreshScrollTriggers, { once: true });
       window.addEventListener('load', () => {
-        [250, 1000, 3000].forEach((ms) => {
-          setTimeout(refreshScrollTriggers, ms);
-        });
+        setTimeout(refreshScrollTriggers, 1500);
       }, { once: true });
     }
 
