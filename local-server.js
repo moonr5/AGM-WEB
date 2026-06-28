@@ -71,8 +71,21 @@ function pickPurpleFallback(pathname) {
   return PURPLE_FALLBACK_IMAGES.landscape;
 }
 
+const AGM_MOBILE_SNIPPET = [
+  '<link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.css">',
+  '<script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.js"></script>',
+].join("\n");
+
+function injectMobileAssets(html) {
+  if (!html.includes("</head>") || html.includes("agm-mobile.css")) {
+    return html;
+  }
+  return html.replace("</head>", `${AGM_MOBILE_SNIPPET}\n</head>`);
+}
+
 function localizeText(text) {
-  return text
+  return injectMobileAssets(
+    text
     .replaceAll("https://www.sanlorenzoyacht.com/hubfs/", "/hubfs/")
     .replaceAll("https://www.sanlorenzoyacht.com/hs/", "/hs/")
     .replaceAll("https://www.sanlorenzoyacht.com/en/", "/en/")
@@ -98,7 +111,8 @@ function localizeText(text) {
     .replaceAll("https:\\/\\/localhost:8080\\/", "\\/")
     .replaceAll("https:\\/\\/www.sanlorenzoyacht.com\\/hubfs\\/", "\\/hubfs\\/")
     .replaceAll("https:\\/\\/www.sanlorenzoyacht.com\\/hs\\/", "\\/hs\\/")
-    .replaceAll("https:\\/\\/146466316.fs1.hubspotusercontent-eu1.net\\/hubfs\\/", "\\/hubfs\\/");
+    .replaceAll("https:\\/\\/146466316.fs1.hubspotusercontent-eu1.net\\/hubfs\\/", "\\/hubfs\\/")
+  );
 }
 
 function resolveRequest(url) {

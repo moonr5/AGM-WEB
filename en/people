@@ -1,12 +1,2123 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!doctype html><html lang="en"><head>
     <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0;url=/en/about/">
-    <link rel="canonical" href="/en/about/">
+    
+    <title>People</title>
+     
+    <link rel="shortcut icon" href="/en/p61.svg">
+    
+    <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="">
+    <meta property="og:title" content="People">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="People">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'â€º';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="/hubfs/hub_generated/module_assets/1/303280081137/1779285400441/module_appbar.css">
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303278617829/1776244747491/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826019/1763472488133/template_brand.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826015/1776160774783/template_mobile.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826016/1773908687685/template_models.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/308384697577/1764065258669/template_search.min.css">
+
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/358240779487/1776247995086/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303278617829/1776244747491/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826015/1776160774783/template_mobile.min.css">
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826016/1773908687685/template_models.min.css">
+
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303278617829/1776244747491/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/368709637362/1776248001782/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826015/1776160774783/template_mobile.min.css">
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826016/1773908687685/template_models.min.css">
+
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303278617829/1776244747491/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/368709637369/1776247990085/template_appbar.min.css">
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826015/1776160774783/template_mobile.min.css">
+
+<link rel="stylesheet" href="/hubfs/hub_generated/template_assets/1/303281826016/1773908687685/template_models.min.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-6b1GcBC2.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-mjACqtDX.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-vfqaj8Z8.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C_qXgYdR.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-D507ZlE-.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C_qXgYdR.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C2fCIkyB.css">
+
+<link rel="preload" as="style" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-DSxFkFDA.css">
+
+    
+
+    
+    <link rel="canonical" href="/en/people">
+
+<script type="text/javascript" src="https://embeds.iubenda.com/widgets/5cb8c1b9-6b61-42da-b4d4-b2961f13d8e9.js"></script>
+<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+<meta property="og:image" content="/hubfs/raw_assets/public/appbar/assets/logo_black.svg">
+<meta property="twitter:image" content="/hubfs/raw_assets/public/appbar/assets/logo_black.svg">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NQHXT6B4');</script>
+<!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sanlorenzo Yacht",
+    "description": "Sanlorenzo builds made to measure yachts since 1958.",
+    "legalName": "Sanlorenzo Spa",
+    "url": "https://www.sanlorenzoyacht.com",
+    "logo": "/hubfs/raw_assets/public/appbar/assets/logo_black.svg",
+    "image": "/hubfs/raw_assets/homepage/76/js_client_assets/assets/9_Loader_Manifesto-D7fJBKYS.jpg",
+    "foundingDate": "1958",
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Gianfranco Cecchi"
+      },
+      {
+        "@type": "Person",
+        "name": "Giuliano Pecchia"
+      }
+    ],
+    "foundingLocation": {
+      "@type": "Place",
+      "address": "Firenze"
+    },
+    "location": [
+      {
+        "@type": "Place",
+        "name": "Sede principale Sanlorenzo Yacht",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Armezzone, 3, Ameglia (SP)",
+          "postalCode": "19031",
+          "addressLocality": "Ameglia, La Spezia",
+          "addressRegion": "SP",
+          "addressCountry": "Italy"
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Sede Centrale",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Armezzone, 3",
+          "postalCode": "19031",
+          "addressLocality": "Ameglia, La Spezia",
+          "addressRegion": "SP",
+          "addressCountry": "Italy"
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Cantiere",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Luigi Salvatori, 56/58",
+          "postalCode": "55049",
+          "addressLocality": "Viareggio",
+          "addressRegion": "LU",
+          "addressCountry": "Italy"
+        }
+      },
+      {
+        "@type": "Place",
+        "name": "Cantiere",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Viale San Bartolomeo 362",
+          "postalCode": "19100",
+          "addressLocality": "La Spezia",
+          "addressRegion": "SP",
+          "addressCountry": "Italy"
+        }
+      }
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39 01876181",
+        "email": "welcome@sanlorenzoyacht.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39 058438071",
+        "email": "welcome@sanlorenzoyacht.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39 0187545700",
+        "email": "welcome@sanlorenzoyacht.com"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/sanlorenzoyacht/",
+      "https://www.instagram.com/sanlorenzoyacht/",
+      "https://www.linkedin.com/company/sanlorenzoyacht/",
+      "https://www.youtube.com/c/SanlorenzoYachtOfficial/featured",
+      "https://it.wikipedia.org/wiki/Sanlorenzo",
+      "https://www.wikidata.org/wiki/Q27580296",
+      "https://www.teleborsa.it/azioni/sanlorenzo-sl-it0003549422-SVQwMDAzNTQ5NDIy"
+    ]
+  }
+</script>
+<meta property="og:url" content="/en/people">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+<link rel="alternate" hreflang="en" href="/en/people">
+<link rel="alternate" hreflang="it" href="/it/people">
+
+
+
+
+
+
+    <style>
+      @font-face {
+        font-family: 'PPNeueMontreal';
+        src: url('/hubfs/fonts/PPNeueMontreal/PPNeueMontreal-Variable.woff2')
+            format('woff2-variations'),
+          url('/hubfs/fonts/PPNeueMontreal/PPNeueMontreal-Variable.woff')
+            format('woff-variations'),
+          url('/fonts/PPNeueMontreal-Variablewoff2') format('woff2-variations'),
+          url('/fonts/PPNeueMontreal-Variable.woff') format('woff-variations');
+        font-weight: 100 900;
+        font-display: swap;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+
+      html,
+      body {
+        overflow-x: clip;
+        max-width: 100vw;
+        position: relative;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        overscroll-behavior-x: none;
+        touch-action: pan-y pinch-zoom;
+        font-family: 'PPNeueMontreal';
+      }
+      p {
+        margin: 0px;
+        padding: 0px;
+      }
+      .maplibregl-popup {
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+
+      .maplibregl-popup-content {
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+      }
+
+      .maplibregl-popup-tip {
+        display: none !important; /* rimuove la freccina */
+      }
+
+      input textarea {
+        appearance: none;
+        -webkit-appearance: none;
+      }
+      #appbar {
+        max-width: 1920px !important;
+      }
+    </style>
+  <meta name="generator" content="HubSpot">
+<link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.css">
+<script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-mobile.js"></script>
 </head>
-<body>
-    <p>Redirecting to <a href="/en/about/">/en/about/</a>...</p>
-</body>
-</html>
+  <body>
+    <div class="body-wrapper   hs-content-id-320929716458 hs-site-page page ">
+       
+<div id="hs_cos_wrapper_module_176285805974525" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="appbar-corporate"><!-- Begin partial -->
+
+
+
+
+
+
+
+
+<div id="appbar-wrapper" class="appbar-wrapper">
+  <div id="appbar" class="appbar" style="color: black; opacity: 1">
+  <div>
+    <div class="section" style="justify-content: start">
+      <a href="/en/">
+        <img src="/hubfs/raw_assets/public/appbar/assets/logo_black.svg" alt="Logo">
+      </a>
+    </div>
+
+    <div class="section" style="font-size: 14px; justify-content: center">
+      <div id="models" class="a">Yachts</div>
+      
+      <div id="brand" class="a" style="margin: 0px 20px">
+        Brand 
+      </div>
+      
+      <a id="arts-culture" class="a" href="/en/arts-and-culture">
+        Arts and Culture
+      </a>
+    </div>
+
+    <div class="section uppercase" style="gap: 10px; font-size: 10px; justify-content: end">
+      <a class="a" href="/en/enquire">Enquire</a>
+      <div class="divider"></div>
+
+      <a class="a" href="/en/brand-representative">Brand Representatives</a>
+      <div class="divider"></div>
+
+      <a id="language" class="a"></a>
+      <div class="divider"></div>
+
+      <div id="search" class="a">
+        <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg" alt="Search">
+      </div>
+    </div>
+
+    <div class="section">
+      <img id="burger" src="/hubfs/raw_assets/public/appbar/assets/burger_menu.svg" alt="Menu">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- THIS IS FOR 74STEEL VIRTUOSITY, REMOVE AFTER THE LAUNCH -->
+<script>
+  if (window.location.pathname === "/our-fleet/virtuosity/pre-reveal") {
+    (function() {
+      var appbarDiv = document.querySelector("#appbar div");
+      if (!appbarDiv) return;
+      var logo = appbarDiv.firstElementChild;
+      appbarDiv.innerHTML = "";
+      if (logo) appbarDiv.appendChild(logo);
+    })();
+  }
+</script>
+
+<div id="overlay" class="overlay"></div>
+
+<!-- BRAND -->
+
+<div id="brand-menu" class="brand-menu">
+  <div class="brand-menu-content">
+    <div class="left">
+      <a href="/en/about" class="menu-label brand"><span data-submenu="about" class="span">ABOUT</span></a>
+      <a href="/en/people" class="menu-label brand"><span data-submenu="people" class="span">PEOPLE</span></a>
+      <a href="/en/sustainability" class="menu-label brand"><span data-submenu="innovation" class="span">SUSTAINABILITY</span></a>
+      <a href="/en/corporate" class="menu-label brand"><span data-submenu="corporate" class="span">CORPORATE GOVERNANCE</span></a>
+      <a href="/en/investors" class="menu-label brand"><span data-submenu="investors" class="span">INVESTORS</span></a>
+      <a href="/en/news-and-events" class="menu-label brand"><span data-submenu="news" class="span">NEWS</span></a>
+      <a href="https://media.sanlorenzoyacht.com/dam/" class="menu-label brand" target="_blank"><span data-submenu="news" class="span">MEDIA PORTAL</span></a>
+    </div>
+    
+    <div id="brand-submenu-right" class="right"></div>
+  </div>
+
+  <div id="brand-submenu-images"></div>
+</div>
+
+<!-- MODELS -->
+
+<div id="models-menu" class="models-menu">
+  <div class="models-menu-content">
+    <div class="left">
+      <a href="/en/our-fleet" class="menu-label model"><span data-submenu="ourFleet" class="span">FLEET</span></a>
+      <a href="https://www.preowned.sanlorenzoyacht.com/en/" class="menu-label model"><span data-submenu="preOwned" class="span">PRE-OWNED</span></a>
+      <div class="menu-label model"><span data-submenu="services" class="span">SERVICES</span></div>
+      <a href="/en/brand-representative" class="menu-label model"><span data-submenu="brandRepresentative" class="span">BRAND REPRESENTATIVES</span></a>        
+    </div>
+  </div>
+  
+  <div id="models-submenu-right" class="right" style="opacity: 1;">
+    <div class="ourFleet hidden">
+       <div class="models-column">
+        <div class="models-column-title">Superyachts</div>
+
+        <a href="/en/our-fleet?range=alloy" class="menu-label model">
+          <span class="span">ALLOY LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=steel" class="menu-label model">
+          <span class="span">STEEL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=explorer" class="menu-label model">
+          <span class="span">EXPLORER LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=x-space" class="menu-label model">
+          <span class="span">X-SPACE LINE</span>
+        </a>
+      </div>
+
+
+      <div class="models-column">
+        <div class="models-column-title">Yachts</div>
+
+        <a href="/en/our-fleet?range=sl" class="menu-label model">
+          <span class="span">SL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sd" class="menu-label model">
+          <span class="span">SD LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sx" class="menu-label model">
+          <span class="span">SX LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sp" class="menu-label model">
+          <span class="span">SP LINE</span>
+        </a>
+        
+        <a href="/en/our-fleet/she" class="menu-label model">
+          <span class="span">SHE</span>
+        </a>
+      </div>
+    </div>
+    <div class="preOwned hidden"></div>
+    
+    <div class="services hidden">
+      <a href="/en/owner-care" class="menu-label model" style="text-transform:none"><span class="span">Owner Care</span></a>
+      <a href="https://sanlorenzocharterfleet.com" class="menu-label model" style="text-transform:none" target="_blank"><span class="span">Charter Fleet</span></a>
+    </div>
+    
+    <div class="brandRepresentative hidden"></div>
+  </div>
+
+  <div id="models-submenu-images">
+     <div class="ourFleet">
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/raw_assets/public/appbar/assets/our_fleet.jpg" alt="OUR FLEET">
+        <div class="imgLabel">FLEET</div>
+      </a>
+    </div>
+<!--    <div class="preOwned hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div>
+    <div class="services hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div>
+    <div class="brandRepresentative hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<!-- SEARCH -->
+<!-- <div id="search-menu" class="search-menu">
+  <div class="search-menu-content">
+    <div class="left">
+    </div>
+
+    <div id="search-submenu-right" class="right"></div>
+  </div>
+
+  <div id="search-submenu-images"></div>
+</div> -->
+<div id="search-menu" class="search-menu">
+  <div class="search-menu-content">
+    <div class="left">
+ 
+      <div style="display: flex; gap: 10px; max-width: 75%; align-items: start;">
+        <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg">
+        <input id="search-input" type="text" class="search-input">
+      </div>
+
+      <!--<div class="highlights">HIGHLIGHTS</div>-->
+      <a href="/en/people" class="menu-label search"><span data-submenu="people" class="span">PEOPLE</span></a>
+      <a href="/en/corporate" class="menu-label search"><span data-submenu="corporate" class="span">CORPORATE GOVERNANCE</span></a>
+      <a href="/en/investors" class="menu-label search"><span data-submenu="investors" class="span">INVESTORS</span></a>
+      <a href="/en/about" class="menu-label search"><span data-submenu="about" class="span">ABOUT</span></a>
+      <a href="/en/sustainability" class="menu-label search"><span data-submenu="innovation" class="span">SUSTAINABILITY</span></a>
+    </div>
+
+    <div id="search-submenu-right" class="right"></div>
+  </div>
+
+  <div id="search-submenu-images">
+    <a class="search-imgWrapper" href="/en/our-fleet/she">
+      <img src="/hubfs/raw_assets/public/appbar/assets/she.png" alt="SHE">
+      <div class="imgLabel">SHE</div>
+    </a>
+    <a class="search-imgWrapper" href="/en/our-fleet/50-steel">
+      <img src="/hubfs/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+      <div class="imgLabel">50 Steel</div>
+    </a></div>
+</div>
+
+
+<div id="mobile-menu" class="mobile-menu">
+  <div style="display: flex; flex-direction: column">
+    <!-- LOGO + CLOSE -->
+    <div style="
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                ">
+      <img src="/hubfs/raw_assets/public/appbar/assets/logo_black.svg" width="250" alt="Logo">
+      <img src="/hubfs/raw_assets/public/appbar/assets/clear.svg" width="24" id="close-mobile" style="cursor: pointer">
+    </div>
+    
+    <div style="display: flex; gap: 10px; width: 100%; align-items: start;">
+      <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg">
+      <input id="search-input-mobile" type="text" class="search-input-mobile" placeholder="Search">
+    </div>
+
+    <!-- ACCORDION 1 -->
+    <div class="accordion open">
+      <button class="accordionHeader" data-font-size="16px" style="font-size: 16px;">
+        <div id="models-mobile" class="a accordionTitle" style="font-weight: 600;">Yachts</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_top.svg"></span>
+      </button>
+      <div id="models-accordion" class="accordionContent">
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/our-fleet" class="a accordionTitle small">FLEET</a>
+              <span class="accordionIcon">
+                <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+              </span>
+          </button>
+          <div class="accordionContent">
+<!--             <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a> -->
+            <!-- SUPERYACHTS -->
+            <div class="mobile-subtitle">SUPERYACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a>
+
+            <!-- YACHTS -->
+            <div class="mobile-subtitle">YACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+          </div>
+        </div>
+        <a href="https://www.preowned.sanlorenzoyacht.com/en/" class="subA">PRE-OWNED</a>
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <div class="a accordionTitle small">SERVICES</div>
+              <span class="accordionIcon">
+                <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+              </span>
+          </button>
+          <div class="accordionContent">
+            <a class="subA" href="/en/owner-care">Owner Care</a>
+            <a class="subA" href="https://sanlorenzocharterfleet.com" target="_blank">Charter Fleet</a>
+          </div>
+        </div>
+        <a href="/en/brand-representative" class="subA">BRAND REPRESENTATIVES</a>
+        <div style="display: flex; gap: 24px;"><a href="/en/our-fleet/she" class="imgWrapperMobile">
+          <img src="/hubfs/raw_assets/public/appbar/assets/she.png" alt="SHE/">
+          <div class="imgLabel">SHE</div>
+          </a>
+          <a href="/en/our-fleet/50-steel" class="imgWrapperMobile">
+            <img src="/hubfs/raw_assets/public/appbar/assets/steel_50.png" alt="50" steel="">
+            <div class="imgLabel">50 Steel</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+
+    <!-- ACCORDION 2 -->
+    <div class="accordion">
+      <button class="accordionHeader" data-font-size="16px" style="font-size: 16px;">
+        <div id="brand-mobile" class="a accordionTitle" style="font-weight: 400;">Brand</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg"></span>
+      </button>
+      <div id="brand-accordion" class="accordionContent">
+        <a></a><a href="/en/about" class="subA">ABOUT</a>
+        <a></a><a href="/en/people" class="subA">PEOPLE</a>
+        <a></a><a href="/en/sustainability" class="subA">SUSTAINABILITY</a>
+        <a></a><a href="/en/corporate" class="subA">CORPORATE GOVERNANCE</a>
+        <a></a><a href="/en/investors" class="subA">INVESTORS</a>
+        <a></a><a href="/en/news-and-events" class="subA">NEWS</a>
+        <a></a><a href="https://media.sanlorenzoyacht.com/dam/" class="subA" target="_blank">MEDIA PORTAL</a>
+      </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+    
+    <!-- LINK SINGOLO -->
+    <a id="arts-culture-mobile" class="a" href="/en/arts-and-culture">Arts and Culture</a>
+
+    <div class="divider-mobile"></div>
+
+    <div style="height: 100px"></div>
+
+    <a class="a2" href="/en/enquire">ENQUIRE</a>
+    <div style="height: 24px"></div>
+    <a class="a2" href="/en/brand-representative">Brand Representatives</a>
+
+    <div class="divider-mobile"></div>
+
+    <div style="display: flex; justify-content: space-between">
+      <span style="font-size: 14px; letter-spacing: 0.1em">SELECT LANGUAGE</span>
+      <a href="#" style="text-decoration: none; color: inherit"><div id="language-mobile" style="font-size: 14px; letter-spacing: 0.1em">IT</div></a>
+    </div>
+
+    <div class="divider-mobile"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="socialContainer">
+    <a href="https://www.instagram.com/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/instagram.svg"></a>
+    <a href="https://www.facebook.com/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/facebook.svg"></a>
+    <a href="https://www.linkedin.com/company/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/linkedin.svg"></a>
+    <a href="https://www.youtube.com/channel/UCgX8OM1rOUUnVRauQDW6iXQ" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/youtube.svg"></a>
+  </div>
+</div>
+
+<!-- End partial --></div>
+
+<div id="appbar-med" style="display: none">
+  <!-- Begin partial -->
+
+
+
+
+
+
+
+
+<div id="appbar-wrapper" class="appbar-wrapper">
+  <div id="appbar" class="appbar" style="color: black; opacity: 1">
+    <div class="logo">
+      <a href="/en/">
+        <img src="/hubfs/raw_assets/public/appbar/assets/med.svg" alt="Logo">
+      </a>
+    </div>
+    
+    <div class="links">
+      <div id="models" class="a">Yachts</div>
+      <a href="/en/team">Team</a>
+      <a href="/en/news-and-events">News</a>
+      <a href="/en/contacts">Locations</a>
+    </div>
+    
+    <div class="right">
+      <a href="/en">Global website</a>
+      <div class="divider"></div>
+      <a class="a" href="/en/enquire">Enquire</a>
+    </div>
+    <div class="burger-section-med">
+      <img id="burger-med" src="/hubfs/raw_assets/public/appbar/assets/burger_menu.svg" alt="Menu">
+    </div>
+  </div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<!-- MODELS -->
+<div id="models-menu" class="models-menu">
+  <div class="models-menu-content">
+    <div class="left">
+      <a href="/en/our-fleet" class="menu-label">
+        <span data-submenu="ourFleet" class="span">FLEET</span>
+      </a>
+      <a href="/en/yachts-for-sale" class="menu-label">
+        <span data-submenu="preOwned" class="span">EXCLUSIVE LISTINGS</span>
+      </a>
+    </div>
+  </div>
+  
+  <div id="models-submenu-right" class="right">
+    <div class="preOwned hidden">
+      <div class="models-column">
+        <a href="/en/yachts-for-sale" class="menu-label model">
+          <span class="span">NEW</span>
+        </a>
+        <a href="/en/yachts-for-sale?filter=pre-owned" class="menu-label model">
+          <span class="span">PRE-OWNED</span>
+        </a>
+      </div>
+    </div>
+    <div class="ourFleet hidden">
+       <div class="models-column">
+        <div class="models-column-title">Superyachts</div>
+
+        <a href="/en/our-fleet?range=alloy" class="menu-label model">
+          <span class="span">ALLOY LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=steel" class="menu-label model">
+          <span class="span">STEEL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=explorer" class="menu-label model">
+          <span class="span">EXPLORER LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=x-space" class="menu-label model">
+          <span class="span">X-SPACE LINE</span>
+        </a>
+      </div>
+
+
+      <div class="models-column">
+        <div class="models-column-title">Yachts</div>
+
+        <a href="/en/our-fleet?range=sl" class="menu-label model">
+          <span class="span">SL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sd" class="menu-label model">
+          <span class="span">SD LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sx" class="menu-label model">
+          <span class="span">SX LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sp" class="menu-label model">
+          <span class="span">SP LINE</span>
+        </a>
+        
+        <a href="/en/our-fleet/she" class="menu-label model">
+          <span class="span">SHE</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="models-submenu-images">
+     <div class="ourFleet">
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/raw_assets/public/appbar/assets/our_fleet.jpg" alt="OUR FLEET">
+        <div class="imgLabel">FLEET</div>
+      </a>
+    </div>
+<!--    <div class="preOwned hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she/">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<div id="mobile-menu" class="mobile-menu">
+  <div style="display: flex; flex-direction: column">
+    <!-- LOGO + CLOSE -->
+    <div style="
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                ">
+      <img src="/hubfs/raw_assets/public/appbar/assets/med.svg" width="250">
+      <img src="/hubfs/raw_assets/public/appbar/assets/clear.svg" width="24" id="close-mobile" style="cursor: pointer">
+    </div>
+
+<!--     <div class="divider-mobile"></div> -->
+
+    <div class="accordion">
+      <button class="accordionHeader" data-font-size="16px">
+        <div id="models-mobile" class="a accordionTitle">Yachts</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg"></span>
+      </button>
+      <div id="models-accordion" class="accordionContent">
+<!--         <a href="/en/yachts-for-sale" class="menu-label subA">
+        Exclusive listing
+      </a> -->
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/yachts-for-sale" class="a accordionTitle small">EXCLUSIVE LISTINGS</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+          <a class="subA" href="/en/yachts-for-sale">NEW</a>
+          <a class="subA" href="/en/yachts-for-sale?filter=pre-owned">PRE-OWNED</a>
+          </div>
+        </div>
+<!--       <a href="/en/our-fleet" class="menu-label subA">
+        FLEET
+      </a> -->
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/our-fleet?hsLang=en" class="a accordionTitle small">FLEET</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+<!--           <a class="subA" href="/en/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
+          <a class="subA" href="https://she.sanlorenzoyacht.com?hsLang=en">SHE</a>
+          <a class="subA" href="/en/our-fleet?range=alloy&amp;hsLang=en">ALLOY LINE</a>
+          <a class="subA" href="/en/our-fleet?range=steel&amp;hsLang=en">STEEL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=explorer&amp;hsLang=en">EXPLORER LINE</a>
+          <a class="subA" href="/en/our-fleet?range=x-space&amp;hsLang=en">X-SPACE LINE</a> -->
+          
+            <div class="mobile-subtitle">SUPERYACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a>
+
+            <!-- YACHTS -->
+            <div class="mobile-subtitle">YACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider-mobile"></div>
+    <a href="/en/team" class="a">Team</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/news-and-events" class="a">News</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/contacts" class="a">Locations</a>
+    <div class="divider-mobile"></div>
+    <a href="/en" class="a">Global website</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/enquire" class="a">Enquire</a>
+
+    <div class="divider-mobile"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="socialContainer">
+    <a href="https://www.instagram.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/instagram.svg"></a>
+    <a href="https://www.facebook.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/facebook.svg"></a>
+    <a href="https://www.linkedin.com/company/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/linkedin.svg"></a>
+    <a href="https://www.youtube.com/channel/UCgX8OM1rOUUnVRauQDW6iXQ"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/youtube.svg"></a>
+  </div>
+</div>
+
+<!-- End partial -->
+</div>
+
+<div id="appbar-apac" style="display: none">
+  <!-- Begin partial -->
+
+
+
+
+
+
+
+
+<div id="appbar-wrapper" class="appbar-wrapper">
+  <div id="appbar" class="appbar" style="color: black; opacity: 1">
+    <div class="logo">
+      <a href="/en/">
+        <img src="/hubfs/raw_assets/public/appbar/assets/apac.svg" alt="Logo">
+      </a>
+    </div>
+    
+    <div class="links">
+      <div id="models" class="a">Yachts</div>
+      <a href="/en/team">Team</a>
+      <a href="/en/news-and-events">News</a>
+      <a href="/en/contacts">Locations</a>
+    </div>
+    
+    <div class="right">
+      <a href="/en">Global website</a>
+      <div class="divider"></div>
+      <a class="a" href="/en/enquire">Enquire</a>
+    </div>
+    <div class="burger-section-apac">
+      <img id="burger-apac" src="/hubfs/raw_assets/public/appbar/assets/burger_menu.svg" alt="Menu">
+    </div>
+  </div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<!-- MODELS -->
+<div id="models-menu" class="models-menu">
+  <div class="models-menu-content">
+    <div class="left">
+      <a href="/en/our-fleet" class="menu-label">
+        <span data-submenu="ourFleet" class="span">FLEET</span>
+      </a>
+      <a href="/en/yachts-for-sale" class="menu-label">
+        <span data-submenu="preOwned" class="span">EXCLUSIVE LISTINGS</span>
+      </a>
+    </div>
+  </div>
+  
+  <div id="models-submenu-right" class="right">
+    <div class="preOwned hidden">
+      <div class="models-column">
+        <a href="/en/yachts-for-sale" class="menu-label model">
+          <span class="span">NEW</span>
+        </a>
+        <a href="/en/yachts-for-sale?filter=pre-owned" class="menu-label model">
+          <span class="span">PRE-OWNED</span>
+        </a>
+      </div>
+    </div>
+    <div class="ourFleet hidden">
+       <div class="models-column">
+        <div class="models-column-title">Superyachts</div>
+
+        <a href="/en/our-fleet?range=alloy" class="menu-label model">
+          <span class="span">ALLOY LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=steel" class="menu-label model">
+          <span class="span">STEEL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=explorer" class="menu-label model">
+          <span class="span">EXPLORER LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=x-space" class="menu-label model">
+          <span class="span">X-SPACE LINE</span>
+        </a>
+      </div>
+
+
+      <div class="models-column">
+        <div class="models-column-title">Yachts</div>
+
+        <a href="/en/our-fleet?range=sl" class="menu-label model">
+          <span class="span">SL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sd" class="menu-label model">
+          <span class="span">SD LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sx" class="menu-label model">
+          <span class="span">SX LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sp" class="menu-label model">
+          <span class="span">SP LINE</span>
+        </a>
+        
+        <a href="/en/our-fleet/she" class="menu-label model">
+          <span class="span">SHE</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="models-submenu-images">
+     <div class="ourFleet">
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/raw_assets/public/appbar/assets/our_fleet.jpg" alt="OUR FLEET">
+        <div class="imgLabel">FLEET</div>
+      </a>
+    </div>
+<!--    <div class="preOwned hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<div id="mobile-menu" class="mobile-menu">
+  <div style="display: flex; flex-direction: column">
+    <!-- LOGO + CLOSE -->
+    <div style="
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                ">
+      <img src="/hubfs/raw_assets/public/appbar/assets/apac.svg" width="250">
+      <img src="/hubfs/raw_assets/public/appbar/assets/clear.svg" width="24" id="close-mobile" style="cursor: pointer">
+    </div>
+
+<!--     <div class="divider-mobile"></div> -->
+
+    <div class="accordion">
+      <button class="accordionHeader" data-font-size="16px">
+        <div id="models-mobile" class="a accordionTitle">Yachts</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg"></span>
+      </button>
+      <div id="models-accordion" class="accordionContent">
+        <!-- <a href="/en/yachts-for-sale" class="menu-label subA">
+        Exclusive listing
+      </a> -->
+      <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/yachts-for-sale" class="a accordionTitle small">EXCLUSIVE LISTINGS</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+          <a class="subA" href="/en/yachts-for-sale">NEW</a>
+          <a class="subA" href="/en/yachts-for-sale?filter=pre-owned">PRE-OWNED</a>
+          </div>
+        </div>
+<!--       <a href="/en/our-fleet" class="menu-label subA">
+        FLEET
+      </a> -->
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/our-fleet?hsLang=en" class="a accordionTitle small">FLEET</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+<!--           <a class="subA" href="/en/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
+          <a class="subA" href="https://she.sanlorenzoyacht.com?hsLang=en">SHE</a>
+          <a class="subA" href="/en/our-fleet?range=alloy&amp;hsLang=en">ALLOY LINE</a>
+          <a class="subA" href="/en/our-fleet?range=steel&amp;hsLang=en">STEEL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=explorer&amp;hsLang=en">EXPLORER LINE</a>
+          <a class="subA" href="/en/our-fleet?range=x-space&amp;hsLang=en">X-SPACE LINE</a> -->
+            <div class="mobile-subtitle">SUPERYACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a>
+
+            <!-- YACHTS -->
+            <div class="mobile-subtitle">YACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+    <a href="/en/team" class="a">Team</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/news-and-events" class="a">News</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/contacts" class="a">Locations</a>
+    <div class="divider-mobile"></div>
+    <a href="/en" class="a">Global website</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/enquire" class="a">Enquire</a>
+
+    <div class="divider-mobile"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="socialContainer">
+    <a href="https://www.instagram.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/instagram.svg"></a>
+    <a href="https://www.facebook.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/facebook.svg"></a>
+    <a href="https://www.linkedin.com/company/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/linkedin.svg"></a>
+    <a href="https://www.youtube.com/channel/UCgX8OM1rOUUnVRauQDW6iXQ"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/youtube.svg"></a>
+  </div>
+</div>
+
+<!-- End partial -->
+</div>
+
+<div id="appbar-slota" style="display: none">
+  <!-- Begin partial -->
+
+
+
+
+
+
+
+
+<div id="appbar-wrapper" class="appbar-wrapper">
+  <div id="appbar" class="appbar" style="color: black; opacity: 1">
+    <div class="logo">
+      <a href="/en/">
+        <img src="/hubfs/raw_assets/public/appbar/assets/slota.svg" alt="Logo">
+      </a>
+    </div>
+    
+    <div class="links">
+      <div id="models" class="a">Yachts</div>
+      <a href="/en/team">Team</a>
+      <a href="/en/news-and-events">News</a>
+      <a href="/en/contacts">Locations</a>
+    </div>
+    
+    <div class="right">
+      <a href="/en">Global website</a>
+      <div class="divider"></div>
+      <a class="a" href="/en/enquire">Enquire</a>
+    </div>
+    <div class="burger-section-slota">
+      <img id="burger-slota" src="/hubfs/raw_assets/public/appbar/assets/burger_menu.svg" alt="Menu">
+    </div>
+  </div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<!-- MODELS -->
+<div id="models-menu" class="models-menu">
+  <div class="models-menu-content">
+    <div class="left">
+      <a href="/en/our-fleet" class="menu-label">
+        <span data-submenu="ourFleet" class="span">FLEET</span>
+      </a>
+      <a href="/en/yachts-for-sale" class="menu-label">
+        <span data-submenu="preOwned" class="span">EXCLUSIVE LISTINGS</span>
+      </a>
+    </div>
+  </div>
+  
+  <div id="models-submenu-right" class="right">
+    <div class="preOwned hidden">
+      <div class="models-column">
+        <a href="/en/yachts-for-sale" class="menu-label model">
+          <span class="span">NEW</span>
+        </a>
+        <a href="/en/yachts-for-sale?filter=pre-owned" class="menu-label model">
+          <span class="span">PRE-OWNED</span>
+        </a>
+      </div>
+    </div>
+    <div class="ourFleet hidden">
+       <div class="models-column">
+        <div class="models-column-title">Superyachts</div>
+
+        <a href="/en/our-fleet?range=alloy" class="menu-label model">
+          <span class="span">ALLOY LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=steel" class="menu-label model">
+          <span class="span">STEEL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=explorer" class="menu-label model">
+          <span class="span">EXPLORER LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=x-space" class="menu-label model">
+          <span class="span">X-SPACE LINE</span>
+        </a>
+      </div>
+
+
+      <div class="models-column">
+        <div class="models-column-title">Yachts</div>
+
+        <a href="/en/our-fleet?range=sl" class="menu-label model">
+          <span class="span">SL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sd" class="menu-label model">
+          <span class="span">SD LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sx" class="menu-label model">
+          <span class="span">SX LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sp" class="menu-label model">
+          <span class="span">SP LINE</span>
+        </a>
+        
+        <a href="/en/our-fleet/she" class="menu-label model">
+          <span class="span">SHE</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="models-submenu-images">
+     <div class="ourFleet">
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/raw_assets/public/appbar/assets/our_fleet.jpg" alt="OUR FLEET">
+        <div class="imgLabel">FLEET</div>
+      </a>
+    </div>
+<!--    <div class="preOwned hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<div id="mobile-menu" class="mobile-menu">
+  <div style="display: flex; flex-direction: column">
+    <!-- LOGO + CLOSE -->
+    <div style="
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                ">
+      <img src="/hubfs/raw_assets/public/appbar/assets/med.svg" width="250">
+      <img src="/hubfs/raw_assets/public/appbar/assets/clear.svg" width="24" id="close-mobile" style="cursor: pointer">
+    </div>
+
+<!--     <div class="divider-mobile"></div> -->
+
+    <div class="accordion">
+      <button class="accordionHeader" data-font-size="16px">
+        <div id="models-mobile" class="a accordionTitle">Yachts</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg"></span>
+      </button>
+      <div id="models-accordion" class="accordionContent">
+<!--         <a href="/en/yachts-for-sale" class="menu-label subA">
+        Exclusive listing
+      </a> -->
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/yachts-for-sale" class="a accordionTitle small">EXCLUSIVE LISTINGS</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+          <a class="subA" href="/en/yachts-for-sale">NEW</a>
+          <a class="subA" href="/en/yachts-for-sale?filter=pre-owned">PRE-OWNED</a>
+          </div>
+        </div>
+<!--       <a href="/en/our-fleet" class="menu-label subA">
+        FLEET
+      </a> -->
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/our-fleet?hsLang=en" class="a accordionTitle small">FLEET</a>
+            <span class="accordionIcon">
+              <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+            </span>
+        </button>
+        <div class="accordionContent">
+<!--           <a class="subA" href="/en/our-fleet?range=sl&amp;hsLang=en">SL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sd&amp;hsLang=en">SD LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sx&amp;hsLang=en">SX LINE</a>
+          <a class="subA" href="/en/our-fleet?range=sp&amp;hsLang=en">SP LINE</a>
+          <a class="subA" href="https://she.sanlorenzoyacht.com?hsLang=en">SHE</a>
+          <a class="subA" href="/en/our-fleet?range=alloy&amp;hsLang=en">ALLOY LINE</a>
+          <a class="subA" href="/en/our-fleet?range=steel&amp;hsLang=en">STEEL LINE</a>
+          <a class="subA" href="/en/our-fleet?range=explorer&amp;hsLang=en">EXPLORER LINE</a>
+          <a class="subA" href="/en/our-fleet?range=x-space&amp;hsLang=en">X-SPACE LINE</a> -->
+            <div class="mobile-subtitle">SUPERYACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a>
+
+            <!-- YACHTS -->
+            <div class="mobile-subtitle">YACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider-mobile"></div>
+    <a href="/en/team" class="a">Team</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/news-and-events" class="a">News</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/contacts" class="a">Locations</a>
+    <div class="divider-mobile"></div>
+    <a href="/en" class="a">Global website</a>
+    <div class="divider-mobile"></div>
+    <a href="/en/enquire" class="a">Enquire</a>
+
+    <div class="divider-mobile"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="socialContainer">
+    <a href="https://www.instagram.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/instagram.svg"></a>
+    <a href="https://www.facebook.com/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/facebook.svg"></a>
+    <a href="https://www.linkedin.com/company/sanlorenzoyacht/"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/linkedin.svg"></a>
+    <a href="https://www.youtube.com/channel/UCgX8OM1rOUUnVRauQDW6iXQ"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/youtube.svg"></a>
+  </div>
+</div>
+
+<!-- End partial -->
+</div>
+
+<div id="appbar-preowned" style="display: none">
+  <!-- Begin partial -->
+
+
+
+
+
+
+
+
+<div id="appbar-wrapper" class="appbar-wrapper">
+  <div id="appbar" class="appbar" style="color: black; opacity: 1">
+  <div>
+    <div class="section" style="justify-content: start">
+      <a href="/en/">
+        <img src="/hubfs/raw_assets/public/appbar/assets/logo_PERPETUAL.svg" alt="Logo" width="300" height="69" style="display: block; width: auto; height: 40px;">
+      </a>
+    </div>
+
+    <div class="section" style="font-size: 14px; justify-content: center">
+      <div id="models" class="a">Yachts</div>
+      
+      <div id="brand" class="a" style="margin: 0px 20px">
+        Brand 
+      </div>
+      
+      <!-- no id="arts-culture": labels.js non deve sovrascrivere l'href (corporate) -->
+      <a class="a" href="/en/arts-and-culture">
+        Arts and Culture
+      </a>
+    </div>
+
+    <div class="section uppercase" style="gap: 10px; font-size: 10px; justify-content: end">
+      <a class="a" href="/en/enquire">Enquire</a>
+      <div class="divider"></div>
+
+      <a class="a" href="/en/brand-representative">Brand Representatives</a>
+      <div class="divider"></div>
+
+      <a id="language" class="a"></a>
+      <div class="divider"></div>
+
+      <div id="search" class="a">
+        <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg" alt="Search">
+      </div>
+    </div>
+
+    <div class="section">
+      <img id="burger" src="/hubfs/raw_assets/public/appbar/assets/burger_menu.svg" alt="Menu">
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<!-- BRAND -->
+
+<div id="brand-menu" class="brand-menu">
+  <div class="brand-menu-content">
+    <div class="left">
+      <a href="/en/about" class="menu-label brand"><span data-submenu="about" class="span">ABOUT</span></a>
+      <a href="/en/people" class="menu-label brand"><span data-submenu="people" class="span">PEOPLE</span></a>
+      <a href="/en/sustainability" class="menu-label brand"><span data-submenu="innovation" class="span">SUSTAINABILITY</span></a>
+      <a href="/en/corporate" class="menu-label brand"><span data-submenu="corporate" class="span">CORPORATE</span></a>
+      <a href="/en/news-and-events" class="menu-label brand"><span data-submenu="news" class="span">NEWS</span></a>
+      <a href="https://media.sanlorenzoyacht.com/dam/" class="menu-label brand" target="_blank"><span data-submenu="news" class="span">MEDIA PORTAL</span></a>
+    </div>
+    
+    <div id="brand-submenu-right" class="right"></div>
+  </div>
+
+  <div id="brand-submenu-images"></div>
+</div>
+
+<!-- MODELS -->
+
+<div id="models-menu" class="models-menu">
+  <div class="models-menu-content">
+    <div class="left">
+      <a href="/en/our-fleet" class="menu-label model"><span data-submenu="ourFleet" class="span">FLEET</span></a>
+      <a href="/en/" class="menu-label model"><span data-submenu="preOwned" class="span">PRE-OWNED</span></a>
+      <div class="menu-label model"><span data-submenu="services" class="span">SERVICES</span></div>
+      <a href="/en/brand-representative" class="menu-label model"><span data-submenu="brandRepresentative" class="span">BRAND REPRESENTATIVES</span></a>        
+    </div>
+  </div>
+  
+  <div id="models-submenu-right" class="right" style="opacity: 1;">
+    <div class="ourFleet hidden">
+       <div class="models-column">
+        <div class="models-column-title">Superyachts</div>
+
+        <a href="/en/our-fleet?range=alloy" class="menu-label model">
+          <span class="span">ALLOY LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=steel" class="menu-label model">
+          <span class="span">STEEL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=explorer" class="menu-label model">
+          <span class="span">EXPLORER LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=x-space" class="menu-label model">
+          <span class="span">X-SPACE LINE</span>
+        </a>
+      </div>
+
+
+      <div class="models-column">
+        <div class="models-column-title">Yachts</div>
+
+        <a href="/en/our-fleet?range=sl" class="menu-label model">
+          <span class="span">SL LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sd" class="menu-label model">
+          <span class="span">SD LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sx" class="menu-label model">
+          <span class="span">SX LINE</span>
+        </a>
+
+        <a href="/en/our-fleet?range=sp" class="menu-label model">
+          <span class="span">SP LINE</span>
+        </a>
+        
+        <a href="/en/our-fleet/she" class="menu-label model">
+          <span class="span">SHE</span>
+        </a>
+      </div>
+    </div>
+    <div class="preOwned hidden"></div>
+    
+    <div class="services hidden">
+      <a href="/en/owner-care" class="menu-label model" style="text-transform:none"><span class="span">Owner Care</span></a>
+      <a href="https://sanlorenzocharterfleet.com" class="menu-label model" style="text-transform:none" target="_blank"><span class="span">Charter Fleet</span></a>
+    </div>
+    
+    <div class="brandRepresentative hidden"></div>
+  </div>
+
+  <div id="models-submenu-images">
+     <div class="ourFleet">
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/raw_assets/public/appbar/assets/our_fleet.jpg" alt="OUR FLEET">
+        <div class="imgLabel">FLEET</div>
+      </a>
+    </div>
+<!--    <div class="preOwned hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div>
+    <div class="services hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div>
+    <div class="brandRepresentative hidden">
+      <a class="models-imgWrapper" href="/en/our-fleet/she">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/she.png" alt="SHE">
+        <div class="imgLabel">SHE</div>
+      </a>
+      <a class="models-imgWrapper" href="/en/our-fleet">
+        <img src="/hubfs/146466316/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+        <div class="imgLabel">50 Steel</div>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<!-- SEARCH -->
+<!-- <div id="search-menu" class="search-menu">
+  <div class="search-menu-content">
+    <div class="left">
+    </div>
+
+    <div id="search-submenu-right" class="right"></div>
+  </div>
+
+  <div id="search-submenu-images"></div>
+</div> -->
+<div id="search-menu" class="search-menu">
+  <div class="search-menu-content">
+    <div class="left">
+ 
+      <div style="display: flex; gap: 10px; max-width: 75%; align-items: start;">
+        <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg">
+        <input id="search-input" type="text" class="search-input">
+      </div>
+
+      <!--<div class="highlights">HIGHLIGHTS</div>-->
+      <a href="/en/people" class="menu-label search"><span data-submenu="people" class="span">PEOPLE</span></a>
+      <a href="/en/corporate" class="menu-label search"><span data-submenu="corporate" class="span">CORPORATE</span></a>
+      <a href="/en/about" class="menu-label search"><span data-submenu="about" class="span">ABOUT</span></a>
+      <a href="/en/sustainability" class="menu-label search"><span data-submenu="innovation" class="span">SUSTAINABILITY</span></a>
+    </div>
+
+    <div id="search-submenu-right" class="right"></div>
+  </div>
+
+  <div id="search-submenu-images">
+    <a class="search-imgWrapper" href="/en/our-fleet/she">
+      <img src="/hubfs/raw_assets/public/appbar/assets/she.png" alt="SHE">
+      <div class="imgLabel">SHE</div>
+    </a>
+    <a class="search-imgWrapper" href="/en/our-fleet/50-steel">
+      <img src="/hubfs/raw_assets/public/appbar/assets/steel_50.png" alt="50 Steel">
+      <div class="imgLabel">50 Steel</div>
+    </a></div>
+</div>
+
+
+<div id="mobile-menu" class="mobile-menu">
+  <div style="display: flex; flex-direction: column">
+    <!-- LOGO + CLOSE -->
+    <div style="
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                ">
+      <img src="/hubfs/raw_assets/public/appbar/assets/logo_PERPETUAL.svg" alt="Logo" width="300" height="69" style="display: block; width: auto; height: 40px; max-width: 250px;">
+      <img src="/hubfs/raw_assets/public/appbar/assets/clear.svg" width="24" id="close-mobile" style="cursor: pointer">
+    </div>
+    
+    <div style="display: flex; gap: 10px; width: 100%; align-items: start;">
+      <img src="/hubfs/raw_assets/public/appbar/assets/search_black.svg">
+      <input id="search-input-mobile" type="text" class="search-input-mobile" placeholder="Search">
+    </div>
+
+    <!-- ACCORDION 1 -->
+    <div class="accordion open">
+      <button class="accordionHeader" data-font-size="16px" style="font-size: 16px;">
+        <div id="models-mobile" class="a accordionTitle" style="font-weight: 600;">Yachts</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_top.svg"></span>
+      </button>
+      <div id="models-accordion" class="accordionContent">
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <a href="/en/our-fleet" class="a accordionTitle small">FLEET</a>
+              <span class="accordionIcon">
+                <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+              </span>
+          </button>
+          <div class="accordionContent">
+<!--             <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a> -->
+            <!-- SUPERYACHTS -->
+            <div class="mobile-subtitle">SUPERYACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=alloy">ALLOY LINE</a>
+            <a class="subA" href="/en/our-fleet?range=steel">STEEL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=explorer">EXPLORER LINE</a>
+            <a class="subA" href="/en/our-fleet?range=x-space">X-SPACE LINE</a>
+
+            <!-- YACHTS -->
+            <div class="mobile-subtitle">YACHTS</div>
+            <a class="subA" href="/en/our-fleet?range=sl">SL LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sd">SD LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sx">SX LINE</a>
+            <a class="subA" href="/en/our-fleet?range=sp">SP LINE</a>
+            <a class="subA" href="/en/our-fleet/she">SHE</a>
+          </div>
+        </div>
+        <a href="/en/" class="subA">PRE-OWNED</a>
+        <div class="accordion">
+          <button class="accordionHeader" data-font-size="12px">
+            <div class="a accordionTitle small">SERVICES</div>
+              <span class="accordionIcon">
+                <img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg">
+              </span>
+          </button>
+          <div class="accordionContent">
+            <a class="subA" href="/en/owner-care">Owner Care</a>
+            <a class="subA" href="https://sanlorenzocharterfleet.com" target="_blank">Charter Fleet</a>
+          </div>
+        </div>
+        <a href="/en/brand-representative" class="subA">BRAND REPRESENTATIVES</a>
+        <div style="display: flex; gap: 24px;"><a href="/en/our-fleet/she" class="imgWrapperMobile">
+          <img src="/hubfs/raw_assets/public/appbar/assets/she.png" alt="SHE/">
+          <div class="imgLabel">SHE</div>
+          </a>
+          <a href="/en/our-fleet/50-steel" class="imgWrapperMobile">
+            <img src="/hubfs/raw_assets/public/appbar/assets/steel_50.png" alt="50" steel="">
+            <div class="imgLabel">50 Steel</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+
+    <!-- ACCORDION 2 -->
+    <div class="accordion">
+      <button class="accordionHeader" data-font-size="16px" style="font-size: 16px;">
+        <div id="brand-mobile" class="a accordionTitle" style="font-weight: 400;">Brand</div>
+        <span class="accordionIcon"><img class="chevron" src="/hubfs/raw_assets/public/appbar/assets/chevron_bottom.svg"></span>
+      </button>
+      <div id="brand-accordion" class="accordionContent">
+        <a></a><a href="/en/about" class="subA">ABOUT</a>
+        <a></a><a href="/en/people" class="subA">PEOPLE</a>
+        <a></a><a href="/en/sustainability" class="subA">SUSTAINABILITY</a>
+        <a></a><a href="/en/corporate" class="subA">CORPORATE</a>
+        <a></a><a href="/en/news-and-events" class="subA">NEWS</a>
+        <a></a><a href="https://media.sanlorenzoyacht.com/dam/" class="subA" target="_blank">MEDIA PORTAL</a>
+      </div>
+    </div>
+
+    <div class="divider-mobile"></div>
+    
+    <!-- LINK SINGOLO -->
+    <a class="a" href="/en/arts-and-culture">Arts and Culture</a>
+
+    <div class="divider-mobile"></div>
+
+    <div style="height: 100px"></div>
+
+    <a class="a2" href="/en/enquire">ENQUIRE</a>
+    <div style="height: 24px"></div>
+    <a class="a2" href="/en/brand-representative">Brand Representatives</a>
+
+    <div class="divider-mobile"></div>
+
+    <div style="display: flex; justify-content: space-between">
+      <span style="font-size: 14px; letter-spacing: 0.1em">SELECT LANGUAGE</span>
+      <a href="#" style="text-decoration: none; color: inherit"><div id="language-mobile" style="font-size: 14px; letter-spacing: 0.1em">IT</div></a>
+    </div>
+
+    <div class="divider-mobile"></div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="socialContainer">
+    <a href="https://www.instagram.com/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/instagram.svg"></a>
+    <a href="https://www.facebook.com/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/facebook.svg"></a>
+    <a href="https://www.linkedin.com/company/sanlorenzoyacht/" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/linkedin.svg"></a>
+    <a href="https://www.youtube.com/channel/UCgX8OM1rOUUnVRauQDW6iXQ" target="_blank"><img width="30" height="30" src="/hubfs/raw_assets/public/appbar/assets/youtube.svg"></a>
+  </div>
+</div>
+
+<!-- End partial -->
+</div>
+
+<script>
+  const host = window.location.hostname.toLowerCase();
+
+  const corporate = document.getElementById("appbar-corporate");
+  const med = document.getElementById("appbar-med");
+  const apac = document.getElementById("appbar-apac");
+  const slota = document.getElementById("appbar-slota");
+  const preowned = document.getElementById("appbar-preowned");
+
+  let activeAppbar = corporate;
+
+  if (host.includes("preowned")) {
+    activeAppbar = preowned;
+  } else if (host.includes("med")) {
+    activeAppbar = med;
+  } else if (host.includes("apac")) {
+    activeAppbar = apac;
+  } else if (host.includes("americas")) {
+    activeAppbar = slota;
+  }
+
+  // mostra solo quella attiva
+  activeAppbar.style.display = "block";
+
+  // rimuove tutte le altre
+  [corporate, med, apac, slota, preowned].forEach((appbar) => {
+    if (appbar !== activeAppbar) {
+      appbar?.remove();
+    }
+  });
+
+  console.log("hostname:", host);
+  console.log("active:", activeAppbar.id);
+</script></div> 
+<div id="hs_cos_wrapper_hero" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-6b1GcBC2.css">
+<!--$--><div data-hs-island="true" id="island-9d5f8cnf04af6R0"><!--$--><div class="_wrapper_12zr3_1"><div class="_container_12zr3_8"><img src="/hubfs/people/San-Lorenzo_GuillaumePlisson-_G8A3259-2.jpg" alt="San-Lorenzo_GuillaumePlisson-_G8A3259-2"><div class="_overlay_12zr3_21"></div><div class="_texts_12zr3_35"><h2>PEOPLE</h2><h1>Be part of our tomorrow.</h1></div></div></div><!--/$--></div><!--/$-->
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-9d5f8cnf04af6R0","moduleId":"components\u002Fmodules\u002FHero\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"background":{"alt":"San-Lorenzo_GuillaumePlisson-_G8A3259-2","height":1280,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002FSan-Lorenzo_GuillaumePlisson-_G8A3259-2.jpg","width":1920},"headline":"PEOPLE","title":"Be part of our tomorrow."}},"supplementalFieldValues":{"background":{},"headline":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-p5UEKYGU.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_values" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-mjACqtDX.css">
+<!--$--><div data-hs-island="true" id="island-3e67ddnf09cc7R0"><!--$--><div class="_container_e69al_1"><div><div class="_title_e69al_22">OUR VALUES</div><div class="_text_e69al_29">We believe that true <span class="_wrapper_e69al_36"><span class="_bold_e69al_41">craftsmanship</span><img src="/hubfs/people/San-Lorenzo_GuillaumePlisson-_N4Y6627%20(1).jpg" alt="preview" class="_image_e69al_53 " aria-hidden="true"></span> is born from <span class="_wrapper_e69al_36"><span class="_bold_e69al_41">people</span><img src="/hubfs/people/_DSC3015-Modifica.jpg" alt="preview" class="_image_e69al_53 " aria-hidden="true"></span>, not just products. Every mind, hand, and passion shapes a Sanlorenzo that becomes truly timeless. Every skill and contribution matters. Together, we create <span class="_wrapper_e69al_36"><span class="_bold_e69al_41">icons</span><img src="/hubfs/people/Senza%20titolo.jpg" alt="preview" class="_image_e69al_53 " aria-hidden="true"></span> that inspire.</div></div></div><!--/$--></div><!--/$-->
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-3e67ddnf09cc7R0","moduleId":"components\u002Fmodules\u002FValues\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"images":[{"boldText":"craftsmanship","image":{"alt":"San-Lorenzo_GuillaumePlisson-_N4Y6627 (1)","height":2500,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002FSan-Lorenzo_GuillaumePlisson-_N4Y6627%20(1).jpg","width":1667}},{"boldText":"people","image":{"alt":"_DSC3015-Modifica","height":690,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002F_DSC3015-Modifica.jpg","width":461}},{"boldText":"icons","image":{"alt":"Senza titolo","height":1080,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002FSenza%20titolo.jpg","width":1920}}],"text":"We believe that true craftsmanship is born from people, not just products. Every mind, hand, and passion shapes a Sanlorenzo that becomes truly timeless. Every skill and contribution matters. Together, we create icons that inspire.","title":"OUR VALUES"}},"supplementalFieldValues":{"images":[{"boldText":{},"image":{}},{"boldText":{},"image":{}},{"boldText":{},"image":{}}],"text":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-ynZ2bl9X.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_talents" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-vfqaj8Z8.css">
+<!--$--><div data-hs-island="true" id="island-5da95bnb874dbR0"><!--$!--><template data-msg="window is not defined" data-stck="
+    at List (file:///var/task/components/island7.js:69:3)
+    at div
+    at TalentIsland (file:///var/task/components/island7.js:60:3)
+    at Lazy
+    at Suspense"></template>server render fail/waiting for island-5da95bnb874dbR0 (separate island render, inside)<!--/$--></div><!--/$--><script>
+  console.group("Server messages rendering: @projects/people/theme/components/modules/Talents");
+  console.error("Error in island components/modules/Talents/island.tsx?client-entry", "ReferenceError", "ReferenceError: window is not defined\n    at getCurrentLanguage (file:///var/task/components/island7.js:40:22)\n    at getLabels (file:///var/task/components/island7.js:47:20)\n    at List (file:///var/task/components/island7.js:76:7)\n    at renderWithHooks (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5724:16)\n    at renderIndeterminateComponent (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5798:15)\n    at renderElement (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6023:7)\n    at renderNodeDestructiveImpl (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6181:11)\n    at renderNodeDestructive (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6153:14)\n    at renderNode (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6336:12)\n    at renderChildrenArray (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6288:7)");
+  console.groupEnd()
+</script>
+
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-5da95bnb874dbR0","moduleId":"components\u002Fmodules\u002FTalents\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"description":"Our talent bring more than skill, they bring stories, passion, and vision. Through their expertise and dedication, they shape a new way to experience the sea. Discover some of their stories and see how they inspire us every day.","subtitle":"The stories behind Sanlorenzo.","talents":[{"description":"Executive Chairman Sanlorenzo","hubDbId":"massimo-perotti","image":{"alt":"Massimo-Perotti---Chairman-CEO-@DanieleBarraco","height":1439,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FMassimo-Perotti---Chairman-CEO-@DanieleBarraco.jpg","width":1920},"title":"Massimo Perotti"},{"description":"CEO Sanlorenzo","hubDbId":"tommaso-vincenzi","image":{"alt":"Vincenzi_2","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FVincenzi_2.jpg","width":1920},"title":"Tommaso Vincenzi"},{"description":"Chief Corporate Officer ","hubDbId":"pier-francesco-acquaviva","image":{"alt":"Acquaviva_2","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FAcquaviva_2.jpg","width":1920},"title":"Pier Francesco Acquaviva"},{"description":"Group Chief Financial Officer","hubDbId":"attilio-bruzzese","image":{"alt":"Bruzzese","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FBruzzese.jpg","width":1920},"title":"Attilio Bruzzese"},{"description":"Group Chief Information Officer","hubDbId":"elena-cortesi","image":{"alt":"Elena-Cortesi_2","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FElena-Cortesi_2.jpg","width":1920},"title":"Elena Cortesi"},{"description":"Group Chief Marketing & Communications Officer","hubDbId":"renato-bisignani","image":{"alt":"Bisignani","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FBisignani.jpg","width":1920},"title":"Renato Bisignani"},{"description":"Chief R&D Officer","hubDbId":"simone-bruckner","image":{"alt":"Bruckner-copia_New","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FBruckner-copia_New.jpg","width":1920},"title":"Simone Bruckner"},{"description":"Chief Sales Officer","hubDbId":"vincenzo-soria","image":{"alt":"Soria","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FSoria.jpg","width":1920},"title":"Vincenzo Soria"},{"description":"Chief Procurement Officer","hubDbId":"damiano-patelli","image":{"alt":"Patelli","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FPatelli.jpg","width":1920},"title":"Damiano Patelli"},{"description":"Corporate Integration & Strategic Projects Manager","hubDbId":"","image":{"alt":"C.Perotti","height":1288,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002Fbio\u002FC.Perotti.jpg","width":1920},"title":"Cesare Perotti"}],"title":"LEADERSHIP TEAM"}},"supplementalFieldValues":{"description":{},"subtitle":{},"talents":[{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}},{"description":{},"hubDbId":{},"image":{},"title":{}}],"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-CDUMFT2B.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div>
+<div id="hs_cos_wrapper_academy" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C_qXgYdR.css">
+<!--$--><div data-hs-island="true" id="island-c43714nd5a9c7R0"><!--$--><div class="_container_16vz1_1"><div><div><div class="_headline_16vz1_36">SANLORENZO ACADEMY</div><div class="_title_16vz1_44">Excellence in training for the future of yachting.</div><div class="_description_16vz1_51">Founded in 2018, the Sanlorenzo Academy provides tailored training paths in the yachting sector for young people eager to build a concrete career within the Sanlorenzo Group. Through a unique blend of theory and handsâ€‘on experience - including classes, workshops and internships - participants develop technical skills, soft competencies, and teamwork abilities. After completing the 600â€‘hour programme, they receive a certificate recognised in Italy and the EU and can continue their professional growth with Sanlorenzo.</div></div></div><div><img src="/hubfs/about/SL_Academy.jpg"></div></div><!--/$--></div><!--/$-->
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-c43714nd5a9c7R0","moduleId":"components\u002Fmodules\u002FAcademy\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"description":"Founded in 2018, the Sanlorenzo Academy provides tailored training paths in the yachting sector for young people eager to build a concrete career within the Sanlorenzo Group. Through a unique blend of theory and handsâ€‘on experience - including classes, workshops and internships - participants develop technical skills, soft competencies, and teamwork abilities. After completing the 600â€‘hour programme, they receive a certificate recognised in Italy and the EU and can continue their professional growth with Sanlorenzo.","headline":"SANLORENZO ACADEMY","image":{"alt":"SL_Academy","height":1080,"src":"\u002Fhubfs\u002F146466316\u002Fabout\u002FSL_Academy.jpg","width":954},"title":"Excellence in training for the future of yachting."}},"supplementalFieldValues":{"description":{},"headline":{},"image":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-Caw4tnbV.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_nauticalDays" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-D507ZlE-.css">
+<!--$--><div data-hs-island="true" id="island-ef70cdn54098eR0"><!--$--><div class="_container_1wg82_1"><div><img src="/hubfs/about/Nautical_days.jpg"></div><div><div><div class="_headline_1wg82_36">NAUTICAL DAYS</div><div class="_title_1wg82_44">A gateway to the Sanlorenzo world.</div><div class="_description_1wg82_51">More than a career experience, our Nautical Days programme is an invitation to step inside the spirit of Sanlorenzo. Across two days at our shipyards, selected students are immersed in the creativity, craftsmanship, and forward-thinking mindset that shapes every yacht we build. By meeting the people behind our most ambitious projects and contributing to real challenges, participants begin to imagine their own path within a place where passion becomes profession and talent finds room to grow.</div></div></div></div><!--/$--></div><!--/$-->
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-ef70cdn54098eR0","moduleId":"components\u002Fmodules\u002FNauticalDays\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"description":"More than a career experience, our Nautical Days programme is an invitation to step inside the spirit of Sanlorenzo. Across two days at our shipyards, selected students are immersed in the creativity, craftsmanship, and forward-thinking mindset that shapes every yacht we build. By meeting the people behind our most ambitious projects and contributing to real challenges, participants begin to imagine their own path within a place where passion becomes profession and talent finds room to grow.","headline":"NAUTICAL DAYS","image":{"alt":"Nautical_days","height":1080,"src":"\u002Fhubfs\u002F146466316\u002Fabout\u002FNautical_days.jpg","width":954},"title":"A gateway to the Sanlorenzo world."}},"supplementalFieldValues":{"description":{},"headline":{},"image":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-BUxCfVkL.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_excellence" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C_qXgYdR.css">
+<!--$--><div data-hs-island="true" id="island-65e2f0ne36bb8R0"><!--$--><div class="_container_16vz1_1"><div><div><div class="_headline_16vz1_36">SANLORENZO EXCELLENCE</div><div class="_title_16vz1_44">An employer of excellence.</div><div class="_description_16vz1_51">Sanlorenzo is proudly recognized as a Top Employer Italy 2026, reaffirming its leadership in yachting and commitment to fostering excellence not only in design and craftsmanship, but in how it supports, develops, and values its people. Recognizing best practice in HR policies, this certification underscores Sanlorenzoâ€™s belief that innovation begins with individuals and a culture built on respect, wellbeing, and shared purpose. The award reflects Sanlorenzoâ€™s ambition to create one of the most advanced and responsible working environments in the luxury sector.</div></div></div><div><img src="/hubfs/raw_assets/people/65/js_client_assets/assets/Top-Employer-Bb6tIYwK.jpg"></div></div><!--/$--></div><!--/$-->
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-65e2f0ne36bb8R0","moduleId":"components\u002Fmodules\u002FExcellence\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"description":"Sanlorenzo is proudly recognized as a Top Employer Italy 2026, reaffirming its leadership in yachting and commitment to fostering excellence not only in design and craftsmanship, but in how it supports, develops, and values its people. Recognizing best practice in HR policies, this certification underscores Sanlorenzoâ€™s belief that innovation begins with individuals and a culture built on respect, wellbeing, and shared purpose. The award reflects Sanlorenzoâ€™s ambition to create one of the most advanced and responsible working environments in the luxury sector.","headline":"SANLORENZO EXCELLENCE","image":{"src":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002FTop-Employer-Bb6tIYwK.jpg"},"title":"An employer of excellence."}},"supplementalFieldValues":{"description":{},"headline":{},"image":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-DPHqSXoc.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_careers" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-C2fCIkyB.css">
+<!--$--><div data-hs-island="true" id="island-812836nadf78cR0"><!--$!--><template data-msg="window is not defined" data-stck="
+    at LocalizedLink (file:///var/task/components/localization.js:13:3)
+    at div
+    at div
+    at div
+    at div
+    at TalentsIsland (file:///var/task/components/island2.js:31:3)
+    at Lazy
+    at Suspense"></template>server render fail/waiting for island-812836nadf78cR0 (separate island render, inside)<!--/$--></div><!--/$--><script>
+  console.group("Server messages rendering: @projects/people/theme/components/modules/Careers");
+  console.error("Error in island components/modules/Careers/island.tsx?client-entry", "ReferenceError", "ReferenceError: window is not defined\n    at getLocalizedPath (file:///var/task/components/localization.js:4:20)\n    at LocalizedLink (file:///var/task/components/localization.js:18:16)\n    at renderWithHooks (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5724:16)\n    at renderIndeterminateComponent (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5798:15)\n    at renderElement (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6023:7)\n    at renderNodeDestructiveImpl (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6181:11)\n    at renderNodeDestructive (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6153:14)\n    at renderNode (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6336:12)\n    at renderChildrenArray (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6288:7)\n    at renderNodeDestructiveImpl (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6218:7)");
+  console.groupEnd()
+</script>
+
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-812836nadf78cR0","moduleId":"components\u002Fmodules\u002FCareers\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"button":"View open positions","descriptionImage":"If the sea inspires you, precision drives you, and teamwork energises you, letâ€™s connect. We welcome applications to show us your potential.","headline":"CAREERS","imageBig":{"alt":"_BMF4914m","height":1083,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002F_BMF4914m.jpg","width":1920},"imageSmall":{"alt":"Senza titolo-1","height":973,"src":"\u002Fhubfs\u002F146466316\u002Fpeople\u002FSenza%20titolo-1.jpg","width":1082},"imageTitle":"Do You Have the Drive?","sendLabel":"Send your curriculum","title":"Build your future with Sanlorenzo."}},"supplementalFieldValues":{"button":{},"descriptionImage":{},"headline":{},"imageBig":{},"imageSmall":{},"imageTitle":{},"sendLabel":{},"title":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-CXCLC5nL.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div> 
+<div id="hs_cos_wrapper_footer" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/people/65/js_client_assets/assets/island-DSxFkFDA.css">
+<!--$--><div data-hs-island="true" id="island-b884dfn251d16R0"><!--$!--><template data-msg="window is not defined" data-stck="
+    at MissionIsland (file:///var/task/components/island4.js:30:3)
+    at Lazy
+    at Suspense"></template>server render fail/waiting for island-b884dfn251d16R0 (separate island render, inside)<!--/$--></div><!--/$--><script>
+  console.group("Server messages rendering: @projects/people/theme/components/modules/Footer");
+  console.error("Error in island components/modules/Footer/island.tsx?client-entry", "ReferenceError", "ReferenceError: window is not defined\n    at MissionIsland (file:///var/task/components/island4.js:53:44)\n    at renderWithHooks (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5724:16)\n    at renderIndeterminateComponent (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:5798:15)\n    at renderElement (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6023:7)\n    at renderLazyComponent (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6013:3)\n    at renderElement (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6106:11)\n    at renderNodeDestructiveImpl (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6181:11)\n    at renderNodeDestructive (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6153:14)\n    at retryTask (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6605:5)\n    at performWork (/var/task/node_modules/react-dom/cjs/react-dom-server.node.development.js:6653:7)");
+  console.groupEnd()
+</script>
+
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlist"],"hublet":"eu1","portalID":146466316};
+      window.__hsServerPageUrl = "\u002Fen\u002Fpeople";
+      window.__hsBasePath = "\u002Fen\u002Fpeople";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-b884dfn251d16R0","moduleId":"components\u002Fmodules\u002FFooter\u002Fisland.tsx?client-entry","moduleName":"island","priority":0,"props":{"fieldValues":{"copyright":"Copyright Â© 2026 by Sanlorenzo Spa  |  P.IVA 01109160117"}},"supplementalFieldValues":{"copyright":{}},"url":"\u002Fhubfs\u002F146466316\u002Fraw_assets\u002Fpeople\u002F65\u002Fjs_client_assets\u002Fassets\u002Fisland-Dk0oljSj.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+      </div>
+
+    </div>
+     
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+
+<script>
+  const _assetUrl = "/hubfs/146466316/raw_assets/public/appbar/assets/she.png";
+  const assetBaseUrl = _assetUrl.replace("/she.png", "");
+    
+  
+    
+    
+  
+</script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826017/1780912272429/template_labels.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772285/1773243164741/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826018/1773414232021/template_mobile.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772289/1773401027710/template_models.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303278617831/1773397882334/template_brand.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/308408712383/1773403351629/template_search.min.js"></script>
+
+
+<script>
+  const _assetUrlMed = "/hubfs/146466316/raw_assets/public/appbar/assets/she.png";
+  const assetBaseUrlMed = _assetUrl.replace("/she.png", "");
+    
+  
+    
+  
+</script>
+<script src="/hubfs/hub_generated/template_assets/1/358240789711/1772026845860/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772285/1773243164741/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826018/1773414232021/template_mobile.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772289/1773401027710/template_models.min.js"></script>
+
+
+<script>
+  const _assetUrlApac = "/hubfs/146466316/raw_assets/public/appbar/assets/she.png";
+  const assetBaseUrlApac = _assetUrl.replace("/she.png", "");
+    
+  
+    
+  
+</script>
+<script src="/hubfs/hub_generated/template_assets/1/368709637343/1772030250585/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772285/1773243164741/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826018/1773414232021/template_mobile.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772289/1773401027710/template_models.min.js"></script>
+
+
+<script>
+  const _assetUrlSlota = "/hubfs/146466316/raw_assets/public/appbar/assets/she.png";
+  const assetBaseUrlSlota = _assetUrl.replace("/she.png", "");
+    
+  
+    
+  
+</script>
+<script src="/hubfs/hub_generated/template_assets/1/368709637353/1772030563847/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772285/1773243164741/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826018/1773414232021/template_mobile.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772289/1773401027710/template_models.min.js"></script>
+
+
+<script>
+  const _assetUrl = "/hubfs/146466316/raw_assets/public/appbar/assets/she.png";
+  const assetBaseUrl = _assetUrl.replace("/she.png", "");
+    
+  
+    
+    
+  
+  
+  if (request.path = 
+</script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826017/1780912272429/template_labels.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772285/1773243164741/template_appbar.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303281826018/1773414232021/template_mobile.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303280772289/1773401027710/template_models.min.js"></script>
+<script src="/hubfs/hub_generated/template_assets/1/303278617831/1773397882334/template_brand.min.js"></script>
+<!-- search.js omesso: su preowned riscrive le immagini search con link relativi al sottodominio -->
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.sanlorenzoyacht.com\/en\/people"]);
+_hsq.push(["setPageId", "320929716458"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 320929716458,
+    "legacyPageId": "320929716458",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 320929716458,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/146466316.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "739b55d7-4ca1-4739-a8ea-5e8b9de43d59",
+    ticks: 1780809634201,
+    page_id: 320929716458,
+    
+    content_group_id: 0,
+    portal_id: 146466316,
+    app_hs_base_url: "https://app-eu1.hubspot.com",
+    cp_hs_base_url: "https://cp-eu1.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "320929716458",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQHXT6B4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  
+  <script>
+    window.currentScroll = 0;
+    window.targetScroll = 0;
+    const ease = 0.08;
+    const mouseSpeed = 1;
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    window.addEventListener(
+      'wheel',
+      (e) => {
+        if (e.target.closest('.maplibregl-canvas')) {
+          return;
+        }
+
+        e.preventDefault();
+        window.targetScroll += e.deltaY * mouseSpeed;
+        window.targetScroll = clamp(
+          window.targetScroll,
+          0,
+          document.body.scrollHeight - window.innerHeight,
+        );
+      },
+      { passive: false },
+    );
+
+    function smoothScroll() {
+      const diff = window.targetScroll - window.currentScroll;
+      if (Math.abs(diff) > 0.5) {
+        window.currentScroll += diff * ease;
+        window.scrollTo(0, Math.round(window.currentScroll));
+      }
+      requestAnimationFrame(smoothScroll);
+    }
+
+    smoothScroll();
+  </script>
+</body></html>

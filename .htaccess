@@ -3,7 +3,6 @@ DirectoryIndex index.html en/index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^api/dealers/?$ /api/dealers.json [L]
-  RewriteRule ^hubfs/arts%20and%20culture/foundation/thumb\.mp4$ /en/v1.mp4 [L]
 </IfModule>
 
 AddType application/javascript .js .mjs

@@ -2,5 +2,3 @@ node_modules/
 .vscode/
 website_backup/
 *.zip
-*.err
-unused-files-report.json
