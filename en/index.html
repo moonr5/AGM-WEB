@@ -2001,9 +2001,16 @@ var hsVars = {
   </script>
 
   <script defer src="hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-smooth.js"></script>
-  <link rel="modulepreload" href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="importmap">
+  {
+    "imports": {
+      "https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs": "/hubfs/js/react/react-combined.mjs"
+    }
+  }
+  </script>
+  <link rel="modulepreload" href="/hubfs/js/react/react-combined.mjs">
   <script type="module">
-    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "/hubfs/js/island-runtime/island-runtime.mjs"
     if (window.__hsEnvConfig) {
       initConfigSingletonFromJSON(window.__hsEnvConfig);
     }

@@ -3,8 +3,6 @@ DirectoryIndex index.html en/index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^api/dealers/?$ /api/dealers.json [L]
-  RewriteRule ^en/p7\.mp4$ /en/p8.mp4 [L]
-  RewriteRule ^en/p9\.mp4$ /en/p8.mp4 [L]
   RewriteRule ^hubfs/arts%20and%20culture/foundation/thumb\.mp4$ /en/v1.mp4 [L]
 </IfModule>
 

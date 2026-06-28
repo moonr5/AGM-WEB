@@ -7,15 +7,29 @@ if (content.charCodeAt(0) === 0xfeff) {
   content = content.slice(1);
 }
 
-const oldDelay = "St.to({},{duration:.5})},5e3))},[Ce])";
-const newDelay = "St.to({},{duration:.5})},0))},[Ce])";
+const replacements = [
+  // Mobile viewport hook prevented ScrollTrigger init entirely (c||setTimeout).
+  ["Ce&&(c||setTimeout(()=>{", "Ce&&setTimeout(()=>{"],
+  // Original 5s delay kept OUR SERVICES hidden until long after page load.
+  ["St.to({},{duration:.5})},5e3))},[Ce])", "St.to({},{duration:.5})},0))},[Ce])"],
+  // Title/copy started off-screen at -50vw and never appeared if scroll failed.
+  ['Yn.set(Ne,{left:"-50vw"})', 'Yn.set(Ne,{left:"0"})'],
+];
 
-if (!content.includes(oldDelay)) {
-  console.error("delay target not found");
-  process.exit(1);
+let changed = false;
+for (const [from, to] of replacements) {
+  if (!content.includes(from)) {
+    console.error("patch target not found:", from.slice(0, 60));
+    process.exit(1);
+  }
+  if (content.includes(from)) {
+    content = content.replace(from, to);
+    changed = true;
+    console.log("patched", from.slice(0, 50));
+  }
 }
 
-content = content.replace(oldDelay, newDelay);
-fs.writeFileSync(path, content, "utf8");
-
-console.log("patched interiors delay 5s -> 0ms, removed BOM");
+if (changed) {
+  fs.writeFileSync(path, content, "utf8");
+  console.log("interiors scroll patch applied");
+}
