@@ -1923,80 +1923,47 @@ var hsVars = {
       history.scrollRestoration = 'manual';
     }
     window.scrollTo(0, 0);
-    document.body.style.overflow = 'hidden';
-    document.documentElement.style.overflow = 'hidden';
 
-    function startSmoothScroll() {
-      document.body.style.overflow = 'auto';
-      document.documentElement.style.overflow = 'auto';
+    function initScroll() {
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
 
-      window.currentScroll = window.scrollY || 0;
-      window.targetScroll = window.currentScroll;
-      const ease = 0.11;
-      const mouseSpeed = 0.9;
-
-      function clamp(value, min, max) {
-        return Math.max(min, Math.min(max, value));
-      }
+      window.setScrollEnabled = function (enabled) {
+        window.disableScroll = !enabled;
+        document.body.style.overflow = enabled ? '' : 'hidden';
+        document.documentElement.style.overflow = enabled ? '' : 'hidden';
+      };
 
       window.addEventListener(
         'wheel',
         (e) => {
           if (window.disableScroll) {
-            return;
+            e.preventDefault();
           }
-
-          if (e.target.closest('.maplibregl-canvas')) {
-            requestAnimationFrame(() => {
-              window.currentScroll = window.scrollY;
-              window.targetScroll = window.scrollY;
-            });
-            return;
-          }
-
-          e.preventDefault();
-          window.targetScroll += e.deltaY * mouseSpeed;
-          window.targetScroll = clamp(
-            window.targetScroll,
-            0,
-            document.body.scrollHeight - window.innerHeight,
-          );
         },
         { passive: false },
       );
 
-      function smoothScroll() {
-        const diff = window.targetScroll - window.currentScroll;
-        if (Math.abs(diff) > 0.25) {
-          window.currentScroll += diff * ease;
-          window.scrollTo(0, window.currentScroll);
-          if (window.gsap?.ScrollTrigger) {
-            window.gsap.ScrollTrigger.update();
-          }
+      function refreshScrollTriggers() {
+        if (window.gsap?.ScrollTrigger) {
+          window.gsap.ScrollTrigger.refresh(true);
         }
-        requestAnimationFrame(smoothScroll);
       }
 
-      window.setScrollEnabled = function (enabled) {
-        window.disableScroll = !enabled;
-        if (window.disableScroll) {
-          document.body.style.overflow = 'hidden';
-          document.documentElement.style.overflow = 'hidden';
-        } else {
-          document.body.style.overflow = 'auto';
-          document.documentElement.style.overflow = 'auto';
-          window.currentScroll = window.scrollY;
-          window.targetScroll = window.scrollY;
-        }
-      };
+      window.refreshScrollTriggers = refreshScrollTriggers;
 
-      smoothScroll();
+      window.addEventListener('load', refreshScrollTriggers, { once: true });
+      window.addEventListener('load', () => {
+        [250, 1000, 3000].forEach((ms) => {
+          setTimeout(refreshScrollTriggers, ms);
+        });
+      }, { once: true });
     }
 
     if (document.readyState === 'complete') {
-      startSmoothScroll();
+      initScroll();
     } else {
-      window.addEventListener('load', startSmoothScroll, { once: true });
+      window.addEventListener('load', initScroll, { once: true });
     }
   </script>
 
