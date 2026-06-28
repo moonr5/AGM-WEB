@@ -123,7 +123,6 @@ function applyFixes(text) {
 const targets = [
   "index.html",
   "en/index.html",
-  "hubfs/146466316/raw_assets/homepage/179/js_client_assets/assets/island-DwW7ueMe.js",
   "en/about/index.html",
   "en/services/index.html",
   "en/contacts/index.html",

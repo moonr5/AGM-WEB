@@ -2,11 +2,6 @@
   const HERO_POSTER =
     "/hubfs/raw_assets/homepage/179/js_client_assets/assets/9_Loader_Manifesto-D7fJBKYS.jpg";
   const HERO_FALLBACK = "/en/v1.mp4";
-  const HERO_SELECTOR = "._main_ty1x2_1 video, ._pinnedSection_biyw3_1 video, ._container_1im41_1 video";
-
-  function isHeroVideo(node) {
-    return node instanceof HTMLVideoElement && node.matches(HERO_SELECTOR);
-  }
 
   function prepareLoaderImages() {
     document.querySelectorAll("._heroImages_biyw3_32 img").forEach((img, index) => {
@@ -41,12 +36,6 @@
         },
         { once: true },
       );
-    }
-
-    if (isHeroVideo(node)) {
-      node.preload = "auto";
-      node.play().catch(() => {});
-      return;
     }
 
     const preload = node.getAttribute("preload");
