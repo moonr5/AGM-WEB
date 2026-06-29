@@ -7,6 +7,7 @@ const BACKUP = path.join(ROOT, "website_backup");
 
 const VIDEO_PATHS = [
   "en/p7.mp4",
+  "en/p8.mp4",
   "en/p9.mp4",
   "en/v1.mp4",
   "en/videos/services/charter-blue.mp4",
@@ -44,7 +45,7 @@ function ensureVideo(rel) {
   }
 }
 
-// p8 is 192MB (over GitHub 100MB limit) — upload manually to Hostinger /en/p8.mp4.
+// p8 is committed as a compressed ~14MB file (original 4K is kept locally as en/p8-original.mp4).
 const HERO_REPLACEMENTS = [];
 
 for (const rel of VIDEO_PATHS) ensureVideo(rel);
