@@ -3,9 +3,25 @@
  * Same layout as desktop: fullscreen video, headline bottom-left, manifest bottom-right.
  */
 @media (max-width: 768px) {
+  /* Break out of .page { padding: 36px 18px } on body-wrapper — edge-to-edge hero */
+  #hs_cos_wrapper_hero,
+  #hero {
+    position: relative !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    box-sizing: border-box !important;
+  }
+
   /* ── Fullscreen shell (below app bar) ── */
   #hero ._pinnedSection_biyw3_1 {
     position: relative !important;
+    display: block !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 100% !important;
     height: 100dvh !important;
     height: 100svh !important;
     min-height: 100dvh !important;
