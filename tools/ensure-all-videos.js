@@ -21,14 +21,14 @@ const VIDEO_FILES = [
 ];
 
 const HERO_MAP = {
-  background0: "/en/p7.mp4",
-  background0mobile: "/en/p7.mp4",
+  background0: "/en/p8.mp4",
+  background0mobile: "/en/p8.mp4",
   background1: "/en/p8.mp4",
   background1mobile: "/en/p8.mp4",
-  background2: "/en/p9.mp4",
-  background2mobile: "/en/p9.mp4",
-  background3: "/en/p9.mp4",
-  background3mobile: "/en/p9.mp4",
+  background2: "/en/p8.mp4",
+  background2mobile: "/en/p8.mp4",
+  background3: "/en/p8.mp4",
+  background3mobile: "/en/p8.mp4",
 };
 
 const SERVICE_MAP = {
@@ -41,14 +41,14 @@ const SERVICE_MAP = {
 };
 
 const HERO_SSR_CYCLE = [
-  "/en/p7.mp4",
-  "/en/p7.mp4",
   "/en/p8.mp4",
   "/en/p8.mp4",
-  "/en/p9.mp4",
-  "/en/p9.mp4",
-  "/en/p7.mp4",
-  "/en/p7.mp4",
+  "/en/p8.mp4",
+  "/en/p8.mp4",
+  "/en/p8.mp4",
+  "/en/p8.mp4",
+  "/en/p8.mp4",
+  "/en/p8.mp4",
 ];
 
 const WARM_SOURCES = [

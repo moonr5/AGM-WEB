@@ -1,8 +1,6 @@
 (function () {
   const WARM_SOURCES = [
-    "/en/p7.mp4",
     "/en/p8.mp4",
-    "/en/p9.mp4",
     "/en/videos/services/charter-blue.mp4",
     "/en/videos/services/shipbuilding-blue.mp4",
     "/en/videos/services/marine-support-blue.mp4",
