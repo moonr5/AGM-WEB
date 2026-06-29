@@ -34,8 +34,8 @@
     pointer-events: none !important;
   }
 
-  /* Sanlorenzo manifest image scroller (large arrow graphic) */
-  #hero ._manifestContainer_biyw3_107 > :last-child {
+  /* Legacy Sanlorenzo manifest image scroller only (not the text card) */
+  #hero ._manifestContainer_biyw3_107 ._imageContainer_biyw3_150 {
     display: none !important;
   }
 
@@ -45,13 +45,14 @@
     transform: translateX(-50%);
     width: min(900px, calc(100vw - 120px));
     height: auto !important;
-    min-height: 0;
+    min-height: 150px;
     max-height: none;
     bottom: 28px !important;
     padding: 22px 32px;
     box-sizing: border-box;
     z-index: 6;
     flex-direction: column;
+    overflow: visible !important;
   }
 
   #hero ._manifestContainer_biyw3_107 > :first-child {
@@ -59,11 +60,14 @@
     height: auto !important;
     width: 100%;
     font-size: inherit;
+    display: block !important;
   }
 
   #hero ._container_174va_1 {
     margin: 0 !important;
     padding: 0 !important;
+    width: 100% !important;
+    display: flex !important;
   }
 
   #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
