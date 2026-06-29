@@ -33,6 +33,29 @@
     if (window.visualViewport) {
       window.visualViewport.addEventListener("resize", onResize, { passive: true });
     }
+
+    function playHeroVideos() {
+      document.querySelectorAll("#hero video").forEach(function (video) {
+        video.muted = true;
+        video.playsInline = true;
+        video.setAttribute("playsinline", "");
+        video.setAttribute("webkit-playsinline", "");
+        if (!video.getAttribute("preload")) {
+          video.preload = "auto";
+        }
+        video.load();
+        video.play().catch(function () {});
+      });
+    }
+
+    playHeroVideos();
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) playHeroVideos();
+    });
+    new MutationObserver(playHeroVideos).observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+    });
   }
 
   if (document.readyState === "loading") {

@@ -12,3 +12,10 @@
 #hero ._smallVideo_ty1x2_64 {
   display: none !important;
 }
+
+@media (max-width: 768px) {
+  #hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
