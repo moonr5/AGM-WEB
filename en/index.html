@@ -24,16 +24,12 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 @import url('hubfs/fonts/playfair/playfair.css');
 </style>
 <style id="hero-manifest-card-theme">
-  #hero ._overlay_biyw3_102 {
-    background-color: rgba(135, 206, 235, 0.35) !important;
-  }
-
   #hero ._manifestContainer_biyw3_107 {
-    background-color: rgba(135, 206, 235, 0.5) !important;
+    background-color: rgba(135, 206, 235, 0.55) !important;
     border-radius: 10px;
     overflow: hidden;
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     transition: border-radius 0.35s ease, background-color 0.35s ease;
   }
 
@@ -49,11 +45,20 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
   #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
     color: #ffffff !important;
-    font-size: clamp(36px, 5vw, 60px) !important;
     line-height: 1.22 !important;
   }
 
+  @media (min-width: 769px) {
+    #hero ._overlay_biyw3_102 {
+      background-color: transparent !important;
+    }
+  }
+
   @media (max-width: 768px) {
+    #hero ._overlay_biyw3_102 {
+      background-color: rgba(135, 206, 235, 0.12) !important;
+    }
+
     #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
       font-size: clamp(18px, 5.5vw, 28px) !important;
       line-height: 1.28 !important;
@@ -1698,7 +1703,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     if (prevDivider && prevDivider.classList.contains("divider")) prevDivider.remove();
   }
 
-</script></div> <div id="hs_cos_wrapper_hero" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-hero-p8.css?v=4">
+</script></div> <div id="hs_cos_wrapper_hero" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-hero-p8.css?v=5">
 <link rel="stylesheet" href="hubfs/raw_assets/homepage/179/js_client_assets/assets/island-BNVETaCL.css">
 <link rel="stylesheet" href="hubfs/raw_assets/homepage/179/js_client_assets/assets/VideoBackground-BjqG724B.css">
 <!--$--><div data-hs-island="true" id="hero"><!--$--><section class="_pinnedSection_biyw3_1"><div class="_heroText_biyw3_85">Everchanging yet

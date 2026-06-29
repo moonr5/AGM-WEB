@@ -19,3 +19,80 @@
     visibility: visible !important;
   }
 }
+
+/* Desktop hero layout — center manifest card, separate from carousel */
+@media (min-width: 769px) {
+  #hero ._overlay_biyw3_102 {
+    background-color: transparent !important;
+  }
+
+  /* Loader collage bleeds through semi-transparent overlay — hide on desktop */
+  #hero ._heroImages_biyw3_32,
+  #hero ._heroText_biyw3_85 {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  /* Sanlorenzo manifest image scroller (large arrow graphic) */
+  #hero ._manifestContainer_biyw3_107 > :last-child {
+    display: none !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%);
+    width: min(900px, calc(100vw - 120px));
+    height: auto !important;
+    min-height: 0;
+    max-height: none;
+    bottom: 28px !important;
+    padding: 22px 32px;
+    box-sizing: border-box;
+    z-index: 6;
+    flex-direction: column;
+  }
+
+  #hero ._manifestContainer_biyw3_107 > :first-child {
+    flex: 1 1 auto !important;
+    height: auto !important;
+    width: 100%;
+    font-size: inherit;
+  }
+
+  #hero ._container_174va_1 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
+    font-size: clamp(22px, 2.6vw, 36px) !important;
+    line-height: 1.22 !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  /* Carousel sits above the manifest card */
+  #hero ._content_ty1x2_38 {
+    bottom: auto !important;
+    top: 58% !important;
+    transform: translateY(-50%) !important;
+    height: auto !important;
+    min-height: 0;
+    z-index: 5;
+  }
+
+  #hero ._contentSpace_ty1x2_38 {
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+  }
+
+  #hero ._title_ty1x2_107 {
+    max-width: min(720px, 55vw);
+  }
+
+  #hero ._trailing_ty1x2_78 {
+    align-self: flex-end;
+  }
+}
