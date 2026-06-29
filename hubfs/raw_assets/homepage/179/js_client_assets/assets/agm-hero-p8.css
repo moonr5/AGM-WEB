@@ -46,13 +46,13 @@
 
   #hero ._manifestContainer_biyw3_107 {
     left: auto !important;
-    right: 56px !important;
+    right: 64px !important;
     transform: none;
-    width: min(560px, 46vw);
+    width: min(400px, 34vw);
     height: auto !important;
     min-height: 0;
     max-height: none;
-    bottom: 56px !important;
+    bottom: 72px !important;
     padding: 0 !important;
     box-sizing: border-box;
     z-index: 4;
@@ -90,35 +90,38 @@
     max-width: 100%;
   }
 
-  /* Carousel stays bottom-left — clear of the info card */
+  /* Carousel stays bottom-left — clear of manifest column */
   #hero ._content_ty1x2_38 {
-    bottom: 130px !important;
+    bottom: 96px !important;
     top: auto !important;
     transform: translateY(0) !important;
     height: auto !important;
     min-height: 0;
     z-index: 5;
-    max-width: min(640px, 52vw);
+    max-width: min(560px, 48vw);
   }
 
   #hero ._contentSpace_ty1x2_38 {
-    margin-left: 60px !important;
-    margin-right: min(520px, 48vw) !important;
+    margin-left: 64px !important;
+    margin-right: min(440px, 38vw) !important;
   }
 
   #hero ._title_ty1x2_107 {
     max-width: 100%;
+    font-weight: 200 !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1.08 !important;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1100px) {
   #hero ._manifestContainer_biyw3_107 {
-    right: 28px !important;
-    width: min(440px, 48vw);
-    bottom: 44px !important;
+    right: 32px !important;
+    width: min(340px, 38vw);
+    bottom: 56px !important;
   }
 
   #hero ._contentSpace_ty1x2_38 {
-    margin-right: min(460px, 50vw) !important;
+    margin-right: min(360px, 42vw) !important;
   }
 }
