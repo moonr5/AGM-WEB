@@ -42,8 +42,8 @@ const REPLACEMENTS = [
     "\\u002Fen\\u002Fsustainability\\u002F",
   ],
   [
-    "Massimo-Perotti-&-Michelangelo-Pistoletto-(1)",
-    "AGM-vessel-charter",
+    '"alt":"Massimo-Perotti-&-Michelangelo-Pistoletto-(1)"',
+    '"alt":"AGM vessel charter"',
   ],
   ["/en/about//", "/en/about/"],
   ["/en/sustainability//", "/en/sustainability/"],
