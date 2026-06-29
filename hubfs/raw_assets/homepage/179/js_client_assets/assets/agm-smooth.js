@@ -80,9 +80,17 @@
     node.setAttribute("playsinline", "");
     fixVideoSources(node);
 
+    const inHero = node.closest("#hero");
+
     const preload = node.getAttribute("preload");
     if (!preload || preload === "auto") {
-      node.preload = "metadata";
+      node.preload = inHero ? "auto" : "metadata";
+    }
+
+    if (inHero) {
+      node.load();
+      node.play().catch(() => {});
+      return;
     }
 
     let primed = false;

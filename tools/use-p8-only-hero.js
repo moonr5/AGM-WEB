@@ -137,11 +137,14 @@ const cssPath = path.join(
   ROOT,
   "hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-hero-p8.css",
 );
-const css = `#hero ._video_ty1x2_6 > div {
-  opacity: 0 !important;
+const css = `/* Fixed p8 background: keep video visible on every hero text slide. */
+#hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
+  opacity: 1 !important;
+  clip-path: inset(0 0 0 0) !important;
+  -webkit-clip-path: inset(0 0 0 0) !important;
 }
 
-#hero ._video_ty1x2_6 > div:first-child {
+#hero ._video_ty1x2_6 video {
   opacity: 1 !important;
 }
 
@@ -179,8 +182,8 @@ const islandPath = path.join(
 if (fs.existsSync(islandPath)) {
   let island = fs.readFileSync(islandPath, "utf8");
   const original = island;
-  island = island.replace(/isPlaying:a&&s===c/g, "isPlaying:a&&s===0");
-  island = island.replace(/isPlaying:a&&h===o/g, "isPlaying:!1");
+  island = island.replace(/isPlaying:a&&s===0/g, "isPlaying:a");
+  island = island.replace(/isPlaying:a&&s===c/g, "isPlaying:a");
   if (island !== original) {
     fs.writeFileSync(islandPath, island, "utf8");
     console.log("patched island-DKwCZMR6.js");

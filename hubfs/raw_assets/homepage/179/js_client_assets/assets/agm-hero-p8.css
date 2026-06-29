@@ -1,8 +1,11 @@
-#hero ._video_ty1x2_6 > div {
-  opacity: 0 !important;
+/* Fixed p8 background: keep video visible on every hero text slide. */
+#hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
+  opacity: 1 !important;
+  clip-path: inset(0 0 0 0) !important;
+  -webkit-clip-path: inset(0 0 0 0) !important;
 }
 
-#hero ._video_ty1x2_6 > div:first-child {
+#hero ._video_ty1x2_6 video {
   opacity: 1 !important;
 }
 
