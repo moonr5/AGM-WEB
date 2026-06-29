@@ -1,5 +1,5 @@
 (function () {
-  const HERO_WARM_SRC = "/en/p7.mp4";
+  const WARM_SOURCES = ["/en/p7.mp4","/en/p8.mp4","/en/p9.mp4","/en/videos/services/charter-blue.mp4","/en/videos/services/shipbuilding-blue.mp4","/en/videos/services/marine-support-blue.mp4"];
 
   function warmVideo(src) {
     const video = document.createElement("video");
@@ -11,9 +11,9 @@
   }
 
   function scheduleHeroWarm() {
-    const run = () => warmVideo(HERO_WARM_SRC);
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(run, { timeout: 4000 });
+    const run = () => WARM_SOURCES.forEach((src, index) => {
+      setTimeout(() => warmVideo(src), index * 200);
+    }););
     } else {
       setTimeout(run, 2000);
     }

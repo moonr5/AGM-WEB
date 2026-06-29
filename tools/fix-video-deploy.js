@@ -44,11 +44,8 @@ function ensureVideo(rel) {
   }
 }
 
-// p8 is 192MB (over GitHub 100MB limit) — use p7/p9 on deploy until p8 is uploaded manually.
-const HERO_REPLACEMENTS = [
-  ["/en/p8.mp4", "/en/p7.mp4"],
-  ["\\u002Fen\\u002Fp8.mp4", "\\u002Fen\\u002Fp7.mp4"],
-];
+// p8 is 192MB (over GitHub 100MB limit) — upload manually to Hostinger /en/p8.mp4.
+const HERO_REPLACEMENTS = [];
 
 for (const rel of VIDEO_PATHS) ensureVideo(rel);
 
