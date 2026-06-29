@@ -16,6 +16,8 @@ const JSON_REPLACEMENTS = [
   ['"title":"SD"', '"title":"Harvester II"'],
   ['"description":"The signature."', '"description":""'],
   ['"description":"An icon of voyaging."', '"description":""'],
+  ['"caption":"The signature."', '"caption":""'],
+  ['"caption":"An icon of voyaging."', '"caption":""'],
 ];
 
 function walk(dir, files = []) {
@@ -54,9 +56,15 @@ for (const file of walk(ROOT).filter(shouldProcess)) {
 
   if (file.endsWith("island-DJ-QQ3E8.js")) {
     text = text.replace(
-      'r.title!="SHE"&&T("span",{style:{fontWeight:100},children:"LINE"})',
-      '!r.title.includes("Harvester")&&r.title!="SHE"&&T("span",{style:{fontWeight:100},children:"LINE"})'
+      '!r.title.includes("Harvester")&&!r.title.includes("Harvester")',
+      '!r.title.includes("Harvester")'
     );
+    if (!text.includes('includes("Harvester")')) {
+      text = text.replace(
+        'r.title!="SHE"&&T("span",{style:{fontWeight:100},children:"LINE"})',
+        '!r.title.includes("Harvester")&&r.title!="SHE"&&T("span",{style:{fontWeight:100},children:"LINE"})'
+      );
+    }
   }
 
   if (text !== original) {
