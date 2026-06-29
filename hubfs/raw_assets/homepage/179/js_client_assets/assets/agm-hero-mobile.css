@@ -1,17 +1,20 @@
 /**
  * AGM hero — MOBILE ONLY (max-width: 768px)
- * Professional layout: full-bleed video + bottom copy overlay + content band.
- * Desktop is agm-hero-desktop.css — do not add min-width rules here.
+ * Same layout as desktop: fullscreen video, headline bottom-left, manifest bottom-right.
  */
 @media (max-width: 768px) {
-  /* ── Section shell ── */
+  /* ── Fullscreen shell (below app bar) ── */
   #hero ._pinnedSection_biyw3_1 {
-    height: auto !important;
-    min-height: 0 !important;
-    overflow: visible !important;
-    background: #0a1628 !important;
-    padding-top: calc(56px + var(--agm-safe-top, 0px));
-    box-sizing: border-box;
+    position: relative !important;
+    height: 100dvh !important;
+    height: 100svh !important;
+    min-height: 100dvh !important;
+    min-height: var(--agm-vh, 100dvh) !important;
+    max-height: 100dvh !important;
+    overflow: hidden !important;
+    background: #000 !important;
+    padding-top: calc(56px + var(--agm-safe-top, 0px)) !important;
+    box-sizing: border-box !important;
   }
 
   #hero ._heroImages_biyw3_32,
@@ -22,35 +25,28 @@
   #hero ._overlay_biyw3_102 {
     position: relative !important;
     width: 100% !important;
-    height: auto !important;
-    min-height: 0 !important;
-    display: grid !important;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    background: #0a1628 !important;
-    overflow: visible !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    display: block !important;
+    background: transparent !important;
+    overflow: hidden !important;
   }
 
-  /* ── Video stage (row 1) ── */
+  /* Video fills entire hero (desktop-like, no stacked band) */
   #hero ._main_ty1x2_1 {
-    grid-row: 1;
-    grid-column: 1;
-    position: relative !important;
+    position: absolute !important;
+    inset: 0 !important;
     width: 100% !important;
-    height: clamp(300px, 58dvh, 500px) !important;
-    min-height: 300px !important;
-    max-height: 500px !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: none !important;
     background: #000 !important;
-    flex-shrink: 0;
-    overflow: hidden;
   }
 
   #hero ._main_ty1x2_1 > div {
     height: 100% !important;
     min-height: 100% !important;
-    max-height: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
+    max-height: none !important;
   }
 
   #hero ._video_ty1x2_6 {
@@ -75,7 +71,7 @@
     height: 100% !important;
     min-height: 100% !important;
     object-fit: cover !important;
-    object-position: center 40% !important;
+    object-position: center center !important;
     display: block !important;
   }
 
@@ -83,29 +79,28 @@
     opacity: 1 !important;
     background: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.12) 0%,
-      rgba(0, 0, 0, 0.35) 55%,
-      rgba(0, 0, 0, 0.72) 100%
+      rgba(0, 0, 0, 0.08) 0%,
+      rgba(0, 0, 0, 0.28) 55%,
+      rgba(0, 0, 0, 0.62) 100%
     ) !important;
   }
 
-  /* ── Manifest copy overlaid on video bottom (same grid cell) ── */
+  /* ── Manifest: bottom-right (desktop mirror) ── */
   #hero ._manifestContainer_biyw3_107 {
-    grid-row: 1;
-    grid-column: 1;
-    align-self: end;
-    z-index: 4;
-    position: relative !important;
+    position: absolute !important;
     left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    right: max(14px, var(--agm-safe-right, 0px)) !important;
+    bottom: max(20px, calc(12px + var(--agm-safe-bottom, 0px))) !important;
+    transform: none !important;
+    width: min(46vw, 200px) !important;
+    max-width: calc(50% - 10px) !important;
+    height: auto !important;
     margin: 0 !important;
-    padding: 72px max(22px, var(--agm-safe-right, 0px)) 20px
-      max(22px, var(--agm-safe-left, 0px)) !important;
+    padding: 0 0 0 12px !important;
     box-sizing: border-box !important;
-    border: none !important;
+    z-index: 6;
+    border-left: 1px solid rgba(255, 255, 255, 0.28) !important;
+    overflow: visible !important;
     pointer-events: none;
   }
 
@@ -113,65 +108,83 @@
     pointer-events: auto;
   }
 
+  #hero ._manifestContainer_biyw3_107 > :first-child {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
   #hero ._container_174va_1 {
-    padding: 0 !important;
     margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
     align-items: flex-start !important;
     text-align: left !important;
   }
 
-  #hero ._container_174va_1 > div {
-    width: 100%;
-    text-align: left !important;
-  }
-
-  /* Hide duplicate eyebrow — rotating line lives in the band below */
   #hero ._manifestContainer_biyw3_107 ._title_174va_22 {
-    display: none !important;
+    display: block !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 8px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.18em !important;
+    text-transform: uppercase !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin: 0 0 8px !important;
+    line-height: 1.3 !important;
   }
 
   #hero ._manifestContainer_biyw3_107 ._text_174va_29,
   #hero ._manifestContainer_biyw3_107 .agm-manifest-text {
-    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
-    gap: 0 !important;
+    text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5);
   }
 
   #hero .agm-manifest-name {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-weight: 500;
-    font-size: clamp(26px, 7.2vw, 34px);
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    color: #fff;
-    margin-bottom: 6px;
+    font-size: clamp(15px, 4.2vw, 20px);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.98);
+    margin-bottom: 4px;
   }
 
   #hero .agm-manifest-tagline {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-style: italic;
     font-weight: 400;
-    font-size: clamp(17px, 4.8vw, 21px);
+    font-size: clamp(11px, 3.2vw, 14px);
     line-height: 1.28;
-    color: rgba(255, 255, 255, 0.94);
-    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 6px;
   }
 
-  /* Body copy belongs below the fold on mobile */
   #hero .agm-manifest-body {
-    display: none !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.86);
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
-  /* ── Content band (row 2): rotating headline + discover ── */
+  /* ── Carousel + discover: bottom-left (desktop mirror) ── */
   #hero ._contentSpace_ty1x2_38 {
-    grid-row: 2;
-    grid-column: 1;
-    position: relative !important;
-    margin: 0 !important;
-    padding: 20px max(22px, var(--agm-safe-right, 0px))
-      calc(22px + var(--agm-safe-bottom, 0px)) max(22px, var(--agm-safe-left, 0px)) !important;
-    background: linear-gradient(180deg, #0d1f2d 0%, #0a1628 100%);
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    flex-shrink: 0;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: max(20px, calc(12px + var(--agm-safe-bottom, 0px))) !important;
+    z-index: 5;
+    margin-left: max(14px, var(--agm-safe-left, 0px)) !important;
+    margin-right: min(calc(46vw + 20px), 220px) !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    pointer-events: none;
   }
 
   #hero ._content_ty1x2_38 {
@@ -182,12 +195,13 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
-    gap: 18px !important;
+    gap: 10px !important;
     height: auto !important;
     min-height: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
     padding: 0 !important;
+    pointer-events: auto;
   }
 
   #hero ._content_ty1x2_38 > :first-child {
@@ -203,13 +217,12 @@
 
   #hero ._title_ty1x2_107 {
     display: block !important;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-    font-size: clamp(13px, 3.6vw, 15px) !important;
-    font-weight: 500 !important;
-    letter-spacing: 0.14em !important;
-    line-height: 1.45 !important;
-    text-transform: uppercase !important;
-    color: rgba(255, 255, 255, 0.72) !important;
+    font-weight: 200 !important;
+    font-size: clamp(17px, 5.2vw, 24px) !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1.1 !important;
+    color: #fff !important;
+    text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5);
     margin: 0 !important;
     max-width: 100% !important;
   }
@@ -225,62 +238,65 @@
   }
 
   #hero ._discover_ty1x2_126 {
-    all: unset;
     display: inline-flex !important;
     align-items: center;
-    gap: 10px;
-    min-height: 44px;
-    padding: 0 2px;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    gap: 8px;
+    min-height: 40px;
+    font-size: 12px;
     font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: 0.04em;
     color: #fff !important;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
     -webkit-tap-highlight-color: transparent;
   }
 
   #hero ._discover_ty1x2_126 img {
-    width: 14px;
-    height: 14px;
-    opacity: 0.9;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Narrow phones: auto-stack bottom (manifest above, headline below) */
+@media (max-width: 420px) {
+  #hero ._manifestContainer_biyw3_107 {
+    right: max(14px, var(--agm-safe-right, 0px)) !important;
+    left: max(14px, var(--agm-safe-left, 0px)) !important;
+    width: auto !important;
+    max-width: none !important;
+    bottom: max(108px, calc(100px + var(--agm-safe-bottom, 0px))) !important;
+    border-left: none !important;
+    padding-left: 0 !important;
+    text-align: left !important;
   }
 
-  #hero ._discover_ty1x2_126:active {
-    opacity: 0.75;
+  #hero ._contentSpace_ty1x2_38 {
+    margin-right: max(14px, var(--agm-safe-right, 0px)) !important;
+    bottom: max(16px, calc(10px + var(--agm-safe-bottom, 0px))) !important;
+  }
+
+  #hero .agm-manifest-body {
+    -webkit-line-clamp: 2;
   }
 }
 
 @media (max-width: 768px) and (max-height: 640px) {
-  #hero ._main_ty1x2_1 {
-    height: clamp(260px, 52dvh, 380px) !important;
-    min-height: 260px !important;
-    max-height: 380px !important;
-  }
-
   #hero ._manifestContainer_biyw3_107 {
-    padding-top: 48px !important;
-  }
-
-  #hero .agm-manifest-name {
-    font-size: clamp(22px, 6.5vw, 28px);
-  }
-
-  #hero .agm-manifest-tagline {
-    font-size: clamp(15px, 4.2vw, 18px);
-  }
-}
-
-@media (max-width: 380px) {
-  #hero ._manifestContainer_biyw3_107 {
-    padding-left: 18px !important;
-    padding-right: 18px !important;
+    bottom: max(14px, var(--agm-safe-bottom, 0px)) !important;
   }
 
   #hero ._contentSpace_ty1x2_38 {
-    padding-left: 18px !important;
-    padding-right: 18px !important;
+    bottom: max(14px, var(--agm-safe-bottom, 0px)) !important;
+  }
+
+  #hero ._title_ty1x2_107 {
+    font-size: clamp(15px, 4.8vw, 20px) !important;
+  }
+
+  #hero .agm-manifest-name {
+    font-size: clamp(14px, 3.8vw, 17px);
+  }
+
+  #hero .agm-manifest-body {
+    display: none !important;
   }
 }
