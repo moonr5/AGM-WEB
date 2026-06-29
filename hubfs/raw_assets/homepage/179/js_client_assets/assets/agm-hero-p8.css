@@ -13,6 +13,11 @@
   display: none !important;
 }
 
+/* Hide NEXT label, progress bars, and arrow controls — slides still auto-rotate */
+#hero ._trailing_ty1x2_78 {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   #hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
     opacity: 1 !important;
@@ -100,10 +105,6 @@
 
   #hero ._title_ty1x2_107 {
     max-width: 100%;
-  }
-
-  #hero ._trailing_ty1x2_78 {
-    align-self: flex-end;
   }
 }
 
