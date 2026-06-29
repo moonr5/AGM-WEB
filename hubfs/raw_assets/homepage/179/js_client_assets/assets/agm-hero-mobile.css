@@ -1,0 +1,205 @@
+/**
+ * AGM hero — MOBILE ONLY (max-width: 768px)
+ * All hero layout + typography for phones/tablets portrait.
+ * Edit this file for mobile fixes — desktop uses agm-hero-desktop.css only.
+ */
+@media (max-width: 768px) {
+  #hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  #hero ._pinnedSection_biyw3_1,
+  #hero ._main_ty1x2_1,
+  #hero ._imageContainer_biyw3_150 {
+    min-height: var(--agm-vh, 100dvh);
+  }
+
+  #hero ._pinnedSection_biyw3_1 {
+    height: auto !important;
+    min-height: 100svh !important;
+    min-height: var(--agm-vh, 100dvh) !important;
+    display: block !important;
+    padding-top: calc(60px + var(--agm-safe-top));
+    box-sizing: border-box;
+  }
+
+  #hero ._heroImages_biyw3_32,
+  #hero ._heroText_biyw3_85 {
+    display: none !important;
+  }
+
+  #hero ._heroText_biyw3_85 {
+    font-size: clamp(22px, 7.5vw, 34px) !important;
+    padding: 0 16px;
+    line-height: 1.15 !important;
+  }
+
+  #hero ._overlay_biyw3_102 {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: calc(100svh - 60px - var(--agm-safe-top)) !important;
+    min-height: calc(var(--agm-vh, 100dvh) - 60px - var(--agm-safe-top)) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: transparent !important;
+  }
+
+  #hero ._main_ty1x2_1 {
+    height: auto !important;
+    min-height: 42svh !important;
+    max-height: 52svh !important;
+    background-color: transparent !important;
+    flex-shrink: 0;
+    order: 1;
+  }
+
+  #hero ._main_ty1x2_1 > div {
+    height: 42svh !important;
+    min-height: 260px !important;
+    max-height: 52svh !important;
+  }
+
+  #hero ._video_ty1x2_6 {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 260px !important;
+  }
+
+  #hero ._video_ty1x2_6 > div:not(._overlay_ty1x2_22) {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  #hero ._video_ty1x2_6 video,
+  #hero ._video_ty1x2_6 ._video_1ru7k_1 {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  #hero ._overlay_ty1x2_22 {
+    opacity: 0.25 !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    top: auto !important;
+    order: 2;
+    margin: 0 20px 8px !important;
+    width: auto !important;
+    height: auto !important;
+    min-height: 0;
+    max-height: none !important;
+    flex-shrink: 0;
+    padding: 0 !important;
+    border-left: none !important;
+  }
+
+  #hero ._container_174va_1 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 ._title_174va_22 {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.18em !important;
+    text-transform: uppercase !important;
+    color: rgba(255, 255, 255, 0.82) !important;
+    margin: 0 0 12px !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
+    text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
+  }
+
+  #hero .agm-manifest-name {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: clamp(24px, 7vw, 32px);
+    line-height: 1.12;
+    color: rgba(255, 255, 255, 0.98);
+    margin-bottom: 8px;
+  }
+
+  #hero .agm-manifest-tagline {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(16px, 4.5vw, 20px);
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 10px;
+  }
+
+  #hero .agm-manifest-body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  #hero ._contentSpace_ty1x2_38 {
+    order: 3;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    flex-shrink: 0;
+    position: relative !important;
+  }
+
+  #hero ._content_ty1x2_38 {
+    position: relative !important;
+    bottom: auto !important;
+    transform: none !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 12px !important;
+    padding-bottom: calc(16px + var(--agm-safe-bottom));
+  }
+
+  #hero ._content_ty1x2_38 > :first-child {
+    flex-direction: column !important;
+  }
+
+  #hero ._titleContainer_ty1x2_107 {
+    width: 100% !important;
+  }
+
+  /* Carousel headline duplicates manifest on small screens */
+  #hero ._title_ty1x2_107 {
+    display: none !important;
+  }
+
+  #hero ._trailingContent_ty1x2_85 {
+    width: 100% !important;
+    flex-wrap: wrap;
+    gap: 10px !important;
+  }
+
+  #hero ._nextContainer_ty1x2_137 {
+    white-space: normal !important;
+    flex-wrap: wrap;
+  }
+
+  #hero ._discover_ty1x2_126 {
+    min-height: 44px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero ._heroImages_biyw3_32 > div {
+    transform: scale(0.92);
+  }
+}
