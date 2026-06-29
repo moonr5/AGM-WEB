@@ -3,6 +3,8 @@ DirectoryIndex index.html en/index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^api/dealers/?$ /api/dealers.json [L]
+  RewriteRule ^videos/services/(.+)$ /en/videos/services/$1 [L]
+  RewriteRule ^p([789])\.mp4$ /en/p$1.mp4 [L]
 </IfModule>
 
 AddType application/javascript .js .mjs

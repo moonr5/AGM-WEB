@@ -198,27 +198,7 @@ function ensureWarmScript(text) {
 }
 
 function patchAgmSmooth() {
-  const file = path.join(
-    ROOT,
-    "hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-smooth.js",
-  );
-  if (!fs.existsSync(file)) return;
-  let text = fs.readFileSync(file, "utf8");
-  const warmList = JSON.stringify(WARM_SOURCES);
-  const next = text.replace(
-    /const HERO_WARM_SRC = "[^"]+";/,
-    `const WARM_SOURCES = ${warmList};`,
-  ).replace(
-    /function scheduleHeroWarm\(\) \{\s*const run = \(\) => warmVideo\(HERO_WARM_SRC\);[\s\S]*?\}/,
-    `function scheduleHeroWarm() {
-    const run = () => WARM_SOURCES.forEach((src, index) => {
-      setTimeout(() => warmVideo(src), index * 200);
-    });`,
-  );
-  if (next !== text) {
-    fs.writeFileSync(file, next, "utf8");
-    console.log("updated agm-smooth.js");
-  }
+  // agm-smooth.js is maintained manually; ensure-all-videos only warms via HTML preload.
 }
 
 for (const rel of VIDEO_FILES) ensureVideo(rel);
