@@ -24,29 +24,33 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 @import url('hubfs/fonts/playfair/playfair.css');
 </style>
 <style id="hero-manifest-card-theme">
+  /* No card chrome — text only on the hero video */
   #hero ._manifestContainer_biyw3_107 {
-    background: linear-gradient(
-      145deg,
-      rgba(255, 255, 255, 0.14) 0%,
-      rgba(255, 255, 255, 0.06) 100%
-    ) !important;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 16px;
-    overflow: hidden;
-    -webkit-backdrop-filter: blur(18px) saturate(1.25);
-    backdrop-filter: blur(18px) saturate(1.25);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
-    transition: border-radius 0.35s ease, box-shadow 0.35s ease;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+  }
+
+  #hero ._manifestContainer_biyw3_107 img[src*="p61.svg"] {
+    display: none !important;
   }
 
   #hero ._manifestContainer_biyw3_107 ._title_174va_22 {
-    color: rgba(255, 255, 255, 0.85) !important;
-    letter-spacing: 0.18em !important;
+    display: none !important;
   }
 
   #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
-    color: rgba(255, 255, 255, 0.96) !important;
-    line-height: 1.35 !important;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    color: rgba(255, 255, 255, 0.98) !important;
+    font-weight: 300 !important;
+    line-height: 1.28 !important;
+    text-shadow: 0 2px 28px rgba(0, 0, 0, 0.55);
+    letter-spacing: 0.01em;
   }
 
   @media (min-width: 769px) {
@@ -54,45 +58,22 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
       background-color: transparent !important;
     }
 
-    #hero ._manifestContainer_biyw3_107 {
-      overflow: auto !important;
-      max-height: min(42vh, 360px);
-    }
-
-    /* Avoid duplicating the carousel headline */
-    #hero ._manifestContainer_biyw3_107 ._title_174va_22 {
-      display: none !important;
-    }
-
-    #hero ._manifestContainer_biyw3_107 img[src*="p61.svg"] {
-      max-width: 72px !important;
-      height: auto !important;
-      margin: 0 0 10px !important;
-      opacity: 0.92;
-    }
-
     #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
-      font-size: clamp(15px, 1.15vw, 18px) !important;
-      line-height: 1.45 !important;
+      font-size: clamp(26px, 2.9vw, 44px) !important;
+      line-height: 1.22 !important;
       width: 100% !important;
       max-width: 100% !important;
-      font-weight: 300 !important;
     }
   }
 
   @media (max-width: 768px) {
     #hero ._overlay_biyw3_102 {
-      background-color: rgba(135, 206, 235, 0.12) !important;
-    }
-
-    #hero ._manifestContainer_biyw3_107 {
-      background-color: rgba(135, 206, 235, 0.5) !important;
-      border-radius: 12px;
+      background-color: transparent !important;
     }
 
     #hero ._manifestContainer_biyw3_107 ._text_174va_29 {
-      font-size: clamp(18px, 5.5vw, 28px) !important;
-      line-height: 1.28 !important;
+      font-size: clamp(22px, 6.5vw, 34px) !important;
+      line-height: 1.26 !important;
     }
   }
 </style>
@@ -1734,7 +1715,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
     if (prevDivider && prevDivider.classList.contains("divider")) prevDivider.remove();
   }
 
-</script></div> <div id="hs_cos_wrapper_hero" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-hero-p8.css?v=8">
+</script></div> <div id="hs_cos_wrapper_hero" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><link rel="stylesheet" href="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-hero-p8.css?v=9">
 <link rel="stylesheet" href="hubfs/raw_assets/homepage/179/js_client_assets/assets/island-BNVETaCL.css">
 <link rel="stylesheet" href="hubfs/raw_assets/homepage/179/js_client_assets/assets/VideoBackground-BjqG724B.css">
 <!--$--><div data-hs-island="true" id="hero"><!--$--><section class="_pinnedSection_biyw3_1"><div class="_heroText_biyw3_85">Everchanging yet

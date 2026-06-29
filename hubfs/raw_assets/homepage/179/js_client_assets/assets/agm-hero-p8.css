@@ -46,18 +46,21 @@
 
   #hero ._manifestContainer_biyw3_107 {
     left: auto !important;
-    right: 48px !important;
+    right: 56px !important;
     transform: none;
-    width: min(380px, 30vw);
+    width: min(560px, 46vw);
     height: auto !important;
     min-height: 0;
-    max-height: min(42vh, 360px);
-    bottom: 40px !important;
-    padding: 20px 22px;
+    max-height: none;
+    bottom: 56px !important;
+    padding: 0 !important;
     box-sizing: border-box;
     z-index: 4;
     flex-direction: column;
-    overflow: auto !important;
+    overflow: visible !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   #hero ._manifestContainer_biyw3_107 > :first-child {
@@ -100,7 +103,7 @@
 
   #hero ._contentSpace_ty1x2_38 {
     margin-left: 60px !important;
-    margin-right: min(420px, 34vw) !important;
+    margin-right: min(520px, 48vw) !important;
   }
 
   #hero ._title_ty1x2_107 {
@@ -110,12 +113,12 @@
 
 @media (min-width: 769px) and (max-width: 1100px) {
   #hero ._manifestContainer_biyw3_107 {
-    right: 24px !important;
-    width: min(320px, 34vw);
-    bottom: 32px !important;
+    right: 28px !important;
+    width: min(440px, 48vw);
+    bottom: 44px !important;
   }
 
   #hero ._contentSpace_ty1x2_38 {
-    margin-right: min(340px, 36vw) !important;
+    margin-right: min(460px, 50vw) !important;
   }
 }
