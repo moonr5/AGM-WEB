@@ -43,102 +43,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Sanlorenzo Yacht",
-    "description": "Sanlorenzo builds made to measure yachts since 1958.",
-    "legalName": "Sanlorenzo Spa",
-    "url": "https://www.sanlorenzoyacht.com",
-    "logo": "/hubfs/raw_assets/public/appbar/assets/logo_black.svg",
-    "image": "/hubfs/raw_assets/homepage/76/js_client_assets/assets/9_Loader_Manifesto-D7fJBKYS.jpg",
-    "foundingDate": "1958",
-    "founders": [
-      {
-        "@type": "Person",
-        "name": "Gianfranco Cecchi"
-      },
-      {
-        "@type": "Person",
-        "name": "Giuliano Pecchia"
-      }
-    ],
+    "name": "PT. Agara Global Maritim",
+    "description": "Indonesian marine services company specializing in vessel charter, FRP shipbuilding, and marine support.",
+    "legalName": "PT. Agara Global Maritim",
+    "url": "https://agmaritim.com",
+    "logo": "/en/p61.svg",
+    "foundingDate": "2020",
     "foundingLocation": {
       "@type": "Place",
-      "address": "Firenze"
+      "address": "Jakarta, Indonesia"
     },
     "location": [
       {
         "@type": "Place",
-        "name": "Sede principale Sanlorenzo Yacht",
+        "name": "Marunda Shipyard",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Via Armezzone, 3, Ameglia (SP)",
-          "postalCode": "19031",
-          "addressLocality": "Ameglia, La Spezia",
-          "addressRegion": "SP",
-          "addressCountry": "Italy"
-        }
-      },
-      {
-        "@type": "Place",
-        "name": "Sede Centrale",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Via Armezzone, 3",
-          "postalCode": "19031",
-          "addressLocality": "Ameglia, La Spezia",
-          "addressRegion": "SP",
-          "addressCountry": "Italy"
-        }
-      },
-      {
-        "@type": "Place",
-        "name": "Cantiere",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Via Luigi Salvatori, 56/58",
-          "postalCode": "55049",
-          "addressLocality": "Viareggio",
-          "addressRegion": "LU",
-          "addressCountry": "Italy"
-        }
-      },
-      {
-        "@type": "Place",
-        "name": "Cantiere",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Viale San Bartolomeo 362",
-          "postalCode": "19100",
-          "addressLocality": "La Spezia",
-          "addressRegion": "SP",
-          "addressCountry": "Italy"
+          "streetAddress": "Marunda, North Jakarta",
+          "postalCode": "14130",
+          "addressLocality": "North Jakarta",
+          "addressRegion": "Jakarta",
+          "addressCountry": "Indonesia"
         }
       }
     ],
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "+39 01876181",
-        "email": "welcome@sanlorenzoyacht.com"
-      },
-      {
-        "@type": "ContactPoint",
-        "telephone": "+39 058438071",
-        "email": "welcome@sanlorenzoyacht.com"
-      },
-      {
-        "@type": "ContactPoint",
-        "telephone": "+39 0187545700",
-        "email": "welcome@sanlorenzoyacht.com"
+        "telephone": "+62 813-5439-6700",
+        "email": "ardi.2772@gmail.com",
+        "contactType": "customer service",
+        "availableLanguage": "English"
       }
     ],
     "sameAs": [
-      "https://www.facebook.com/sanlorenzoyacht/",
-      "https://www.instagram.com/sanlorenzoyacht/",
-      "https://www.linkedin.com/company/sanlorenzoyacht/",
-      "https://www.youtube.com/c/SanlorenzoYachtOfficial/featured",
-      "https://it.wikipedia.org/wiki/Sanlorenzo",
-      "https://www.wikidata.org/wiki/Q27580296",
-      "https://www.teleborsa.it/azioni/sanlorenzo-sl-it0003549422-SVQwMDAzNTQ5NDIy"
+      "https://www.facebook.com/agaraglobalmaritim/",
+      "https://www.instagram.com/agaraglobalmaritim/",
+      "https://www.linkedin.com/company/agaraglobalmaritim/",
+      "https://www.youtube.com/@agaraglobalmaritim"
     ]
   }
 </script>
@@ -291,7 +233,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="wrapper">
     <div class="appbar-wrapper">
       <div class="appbar-container">
-        <a href="https://test.sanlorenzoyacht.com/en" target="_self"><img src="/hubfs/raw_assets/public/404/assets/logo.svg"></a>
+        <a href="https://test.agmaritim.com/en" target="_self"><img src="/hubfs/raw_assets/public/404/assets/logo.svg"></a>
       </div>
     </div>
     <div class="container">
@@ -304,7 +246,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <h2>
           The page you are looking for is not available or has changed destination. Please return to the homepage to continue your navigation.
         </h2>
-        <a id="home-link" href="https://sanlorenzoyacht.com" target="_self">
+        <a id="home-link" href="https://agmaritim.com" target="_self">
           Return to Homepage
           <img src="/hubfs/raw_assets/public/404/assets/link.svg">
         </a>
@@ -319,13 +261,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   
 <!-- HubSpot performance collection script -->
-<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
-
 <!-- Start of HubSpot Analytics Code -->
 <script type="text/javascript">
 var _hsq = _hsq || [];
 _hsq.push(["setContentType", "standard-page"]);
-_hsq.push(["setCanonicalUrl", "https:\/\/www.sanlorenzoyacht.com\/404"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.agmaritim.com\/404"]);
 _hsq.push(["setPageId", ""]);
 _hsq.push(["setContentMetadata", {
     "contentPageId": null,
