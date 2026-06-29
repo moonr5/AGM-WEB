@@ -1,4 +1,5 @@
 (function () {
+  // AGM hero video helper (v2)
   const WARM_SOURCES = [
     "/en/p8.mp4",
     "/en/videos/services/charter-blue.mp4",
@@ -19,7 +20,7 @@
         return url.pathname;
       }
       return url.pathname + url.search;
-    } catch {
+    } catch (e) {
       if (src.startsWith("/videos/services/")) return `/en${src}`;
       if (/^\/p[789]\.mp4$/.test(src)) return `/en${src}`;
       return src;

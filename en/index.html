@@ -2003,39 +2003,7 @@ var hsVars = {
     }
   </script>
 
-  <script defer>
-(function () {
-  const sources = [
-      "/en/p8.mp4",
-      "/en/videos/services/charter-blue.mp4",
-      "/en/videos/services/shipbuilding-blue.mp4",
-      "/en/videos/services/marine-support-blue.mp4"
-  ];
-
-  function warmVideo(src) {
-    const video = document.createElement("video");
-    video.preload = "auto";
-    video.muted = true;
-    video.playsInline = true;
-    video.src = src;
-    video.load();
-  }
-
-  function warmAll() {
-    sources.forEach((src, index) => {
-      setTimeout(() => warmVideo(src), index * 250);
-    });
-  }
-
-  if (document.readyState === "complete") {
-    warmAll();
-  } else {
-    window.addEventListener("load", warmAll, { once: true });
-  }
-})();
-  </script>
-
-  <script defer src="hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-smooth.js"></script>
+  <script defer src="/hubfs/raw_assets/homepage/179/js_client_assets/assets/agm-smooth.js?v=2"></script>
   <link rel="modulepreload" href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
   <script type="module">
     import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
