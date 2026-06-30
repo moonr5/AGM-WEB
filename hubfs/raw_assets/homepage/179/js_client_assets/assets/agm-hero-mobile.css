@@ -7,11 +7,12 @@
   .pin-spacer:has(#hero),
   #hs_cos_wrapper_hero.pin-spacer,
   #hs_cos_wrapper_hero + .pin-spacer {
-    height: auto !important;
+    height: 0 !important;
     min-height: 0 !important;
     max-height: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    overflow: hidden !important;
   }
 
   #hs_cos_wrapper_hero,
@@ -23,6 +24,8 @@
     padding: 0 !important;
     box-sizing: border-box !important;
     overflow: hidden !important;
+    z-index: 1 !important;
+    isolation: isolate;
   }
 
   #hero ._pinnedSection_biyw3_1 {
@@ -31,6 +34,7 @@
     left: auto !important;
     right: auto !important;
     transform: none !important;
+    z-index: auto !important;
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -82,7 +86,22 @@
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
-    z-index: 1;
+    isolation: isolate;
+  }
+
+  #hs_cos_wrapper_seaLiving,
+  #seaLiving {
+    z-index: 2 !important;
+  }
+
+  #hs_cos_wrapper_range,
+  #range {
+    z-index: 3 !important;
+  }
+
+  #hs_cos_wrapper_below,
+  #below {
+    z-index: 4 !important;
   }
 
   #hero ._main_ty1x2_1 > div {

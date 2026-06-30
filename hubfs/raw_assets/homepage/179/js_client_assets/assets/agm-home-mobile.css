@@ -16,11 +16,12 @@
   }
 
   .pin-spacer {
-    height: auto !important;
+    height: 0 !important;
     min-height: 0 !important;
     max-height: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    overflow: hidden !important;
   }
 
   #hs_cos_wrapper_hero,
@@ -35,32 +36,45 @@
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: clip !important;
+    overflow-y: visible !important;
     box-sizing: border-box !important;
+    position: relative !important;
+    isolation: isolate;
   }
 
-  /* ── seaLiving (services carousel) ── */
+  /* ── seaLiving (services carousel) — stacked flex, no internal overlap ── */
   #seaLiving ._container_1im41_1 {
     position: relative !important;
     width: 100% !important;
     max-width: 100% !important;
-    height: clamp(460px, 118vw, 580px) !important;
+    height: clamp(580px, 135vw, 720px) !important;
     min-height: 0 !important;
     max-height: none !important;
     overflow: hidden !important;
   }
 
   #seaLiving ._section_1im41_10 {
+    position: absolute !important;
+    inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
     min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    box-sizing: border-box !important;
+    padding: 14px var(--agm-mobile-pad-r) max(12px, var(--agm-safe-bottom, 0px)) var(--agm-mobile-pad) !important;
     background-size: cover !important;
     background-position: center center !important;
   }
 
   #seaLiving ._headingContainer_1im41_31 {
-    left: 0 !important;
-    margin: 14px var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    margin: 0 0 8px 0 !important;
     max-width: 100% !important;
+    flex: 0 0 auto !important;
   }
 
   #seaLiving ._headingContainer_1im41_31 > :first-child {
@@ -77,25 +91,30 @@
     height: auto !important;
     min-height: 0 !important;
     max-height: none !important;
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    flex: 1 1 auto !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-end !important;
-    gap: 10px !important;
-    padding-bottom: max(12px, var(--agm-safe-bottom, 0px)) !important;
+    gap: 8px !important;
+    padding: 0 !important;
+    filter: none !important;
+    overflow: hidden !important;
   }
 
   #seaLiving ._leftContainer_1im41_64 {
     position: relative !important;
-    left: 0 !important;
-    margin: 0 var(--agm-mobile-pad-r) 8px var(--agm-mobile-pad) !important;
+    left: auto !important;
+    top: auto !important;
+    margin: 0 !important;
     min-width: 0 !important;
-    gap: 10px !important;
+    gap: 8px !important;
     flex-direction: column !important;
     align-items: flex-start !important;
+    flex: 0 0 auto !important;
   }
 
   #seaLiving ._leftContainer_1im41_64 > :nth-child(2),
@@ -111,15 +130,21 @@
     max-width: 100% !important;
   }
 
+  #seaLiving ._leftContainer_1im41_64 > ._index_1im41_75,
+  #seaLiving ._leftContainer_1im41_64 > ._currentIndex_1im41_86 {
+    display: none !important;
+  }
+
   #seaLiving ._rightContainer_1im41_117 {
     position: relative !important;
-    left: 0 !important;
-    right: 0 !important;
-    top: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
     transform: none !important;
-    margin: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
-    gap: 10px !important;
+    margin: 0 !important;
+    gap: 8px !important;
     max-width: 100% !important;
+    flex: 0 0 auto !important;
   }
 
   #seaLiving ._rightContainer_1im41_117 > div {
@@ -139,14 +164,15 @@
     left: auto !important;
     bottom: auto !important;
     transform: none !important;
-    width: calc(100% - var(--agm-mobile-pad) - var(--agm-mobile-pad-r)) !important;
+    width: 100% !important;
     max-width: 100% !important;
     height: auto !important;
-    min-height: clamp(140px, 28vh, 220px) !important;
-    max-height: 28vh !important;
-    margin: 0 auto 10px !important;
+    min-height: clamp(120px, 24vh, 200px) !important;
+    max-height: 24vh !important;
+    margin: 4px 0 0 !important;
     padding: 0 !important;
     aspect-ratio: 311 / 420 !important;
+    flex-shrink: 0 !important;
   }
 
   /* ── range (fleet) ── */
@@ -156,6 +182,8 @@
     height: auto !important;
     min-height: 0 !important;
     overflow-x: clip !important;
+    overflow-y: visible !important;
+    position: relative !important;
   }
 
   #range ._rangeHeader_ws1t0_9 {
@@ -282,23 +310,43 @@
     padding: 6px 12px !important;
   }
 
+  #below ._second_mirx2_56 {
+    flex: none !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
   #below ._second_mirx2_56 > ._container_mirx2_26 {
     padding: 0 !important;
     gap: 0 !important;
     height: auto !important;
+    position: relative !important;
   }
 
   #below ._second_mirx2_56 > ._container_mirx2_26 > ._imgWrapper_mirx2_65 {
-    height: clamp(200px, 42vh, 300px) !important;
+    position: relative !important;
+    height: clamp(220px, 44vh, 320px) !important;
     width: 100% !important;
+    overflow: hidden !important;
   }
 
   #below ._texts_mirx2_93 {
+    position: absolute !important;
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
+    top: auto !important;
     padding: 12px var(--agm-mobile-pad-r) max(12px, var(--agm-safe-bottom, 0px)) var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
+    z-index: 2 !important;
+    pointer-events: none;
+  }
+
+  #below ._texts_mirx2_93 * {
+    pointer-events: auto;
   }
 
   #below ._texts_mirx2_93 > :first-child {
@@ -319,11 +367,21 @@
   }
 
   #below ._arrows_mirx2_85 {
+    position: absolute !important;
+    top: 50% !important;
+    bottom: auto !important;
     right: 0 !important;
+    transform: translateY(-50%) !important;
     padding-right: var(--agm-mobile-pad-r) !important;
     padding-left: var(--agm-mobile-pad) !important;
     width: 100% !important;
     box-sizing: border-box !important;
+    z-index: 3 !important;
+    pointer-events: none;
+  }
+
+  #below ._arrows_mirx2_85 * {
+    pointer-events: auto;
   }
 
   /* Interiors / services grid */

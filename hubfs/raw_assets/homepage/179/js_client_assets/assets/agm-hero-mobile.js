@@ -95,23 +95,44 @@
       el.style.right = "auto";
       el.style.width = "100%";
       el.style.transform = "none";
+      el.style.zIndex = "auto";
     });
 
     document.querySelectorAll(".pin-spacer").forEach(function (spacer) {
       if (spacer.querySelector("#hero") || spacer.contains(hero)) {
-        spacer.style.height = "auto";
+        spacer.style.height = "0";
         spacer.style.minHeight = "0";
         spacer.style.maxHeight = "none";
         spacer.style.padding = "0";
         spacer.style.margin = "0";
+        spacer.style.overflow = "hidden";
         killed = true;
       }
     });
 
-    document.body.style.overflow = "auto";
-    document.documentElement.style.overflow = "auto";
+    ensureMobileScroll();
 
     return killed;
+  }
+
+  /** Keep native touch scroll working on mobile homepage. */
+  function ensureMobileScroll() {
+    if (!isMobile()) return;
+    document.body.style.overflow = "auto";
+    document.body.style.height = "auto";
+    document.documentElement.style.overflow = "auto";
+    document.documentElement.style.height = "auto";
+    if (window.disableScroll !== undefined) {
+      window.disableScroll = false;
+    }
+    var hero = document.querySelector("#hero ._pinnedSection_biyw3_1");
+    if (hero && getComputedStyle(hero).position === "fixed") {
+      hero.style.position = "relative";
+      hero.style.top = "auto";
+      hero.style.left = "auto";
+      hero.style.width = "100%";
+      hero.style.transform = "none";
+    }
   }
 
   function schedulePinDisable() {
@@ -121,10 +142,17 @@
     var timer = setInterval(function () {
       attempts += 1;
       disableHeroScrollPin();
+      ensureMobileScroll();
       if (attempts >= 48) clearInterval(timer);
     }, 250);
 
-    window.addEventListener("load", disableHeroScrollPin, { once: true });
+    window.addEventListener("load", function () {
+      disableHeroScrollPin();
+      ensureMobileScroll();
+    }, { once: true });
+
+    window.addEventListener("scroll", ensureMobileScroll, { passive: true });
+    window.addEventListener("touchstart", ensureMobileScroll, { passive: true });
   }
 
   function init() {
