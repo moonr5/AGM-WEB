@@ -122,14 +122,6 @@ button,
     padding-right: 0 !important;
   }
 
-  #seaLiving,
-  #range,
-  #below {
-    padding-left: max(18px, var(--agm-safe-left)) !important;
-    padding-right: max(18px, var(--agm-safe-right)) !important;
-    box-sizing: border-box;
-  }
-
   .page h1 {
     font-size: clamp(28px, 8vw, 42px) !important;
   }
