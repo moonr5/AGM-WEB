@@ -56,6 +56,7 @@
     if (isMobile()) {
       root.classList.add("agm-hero-is-mobile");
       setHeroMetrics();
+      disableHeroScrollPin();
     } else {
       root.classList.remove("agm-hero-is-mobile");
       root.style.removeProperty("--agm-hero-h");
@@ -64,8 +65,70 @@
     }
   }
 
+  /** Kill GSAP ScrollTrigger pin on mobile so seaLiving/range/below are reachable. */
+  function disableHeroScrollPin() {
+    if (!isMobile()) return false;
+
+    var hero = document.querySelector("#hero");
+    if (!hero) return false;
+
+    var gsap = window.gsap;
+    var ST = gsap && gsap.ScrollTrigger;
+    var killed = false;
+
+    if (ST) {
+      ST.getAll().forEach(function (st) {
+        var trigger = st.trigger;
+        if (!trigger) return;
+        if (trigger === hero || trigger.closest("#hero") || hero.contains(trigger)) {
+          st.kill(true);
+          killed = true;
+        }
+      });
+      ST.refresh(true);
+    }
+
+    hero.querySelectorAll("._pinnedSection_biyw3_1").forEach(function (el) {
+      el.style.position = "relative";
+      el.style.top = "auto";
+      el.style.left = "auto";
+      el.style.right = "auto";
+      el.style.width = "100%";
+      el.style.transform = "none";
+    });
+
+    document.querySelectorAll(".pin-spacer").forEach(function (spacer) {
+      if (spacer.querySelector("#hero") || spacer.contains(hero)) {
+        spacer.style.height = "auto";
+        spacer.style.minHeight = "0";
+        spacer.style.padding = "0";
+        spacer.style.margin = "0";
+        killed = true;
+      }
+    });
+
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
+
+    return killed;
+  }
+
+  function schedulePinDisable() {
+    if (!isMobile()) return;
+
+    var attempts = 0;
+    var timer = setInterval(function () {
+      attempts += 1;
+      disableHeroScrollPin();
+      if (attempts >= 48) clearInterval(timer);
+    }, 250);
+
+    window.addEventListener("load", disableHeroScrollPin, { once: true });
+  }
+
   function init() {
     syncHeroMode();
+    schedulePinDisable();
     var mq = window.matchMedia(MQ);
     if (mq.addEventListener) {
       mq.addEventListener("change", syncHeroMode);
