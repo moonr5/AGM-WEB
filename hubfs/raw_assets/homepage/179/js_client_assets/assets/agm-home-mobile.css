@@ -1,9 +1,29 @@
 /**
  * AGM homepage sections — MOBILE ONLY (max-width: 768px)
- * seaLiving, range, below: edge-to-edge + scaled type (matches hero mobile).
- * Desktop untouched — rules only inside this media query.
+ * Compact, edge-to-edge layout with tight vertical rhythm (no full-viewport gaps).
  */
 @media (max-width: 768px) {
+  :root {
+    --agm-mobile-pad: max(16px, var(--agm-safe-left, 0px));
+    --agm-mobile-pad-r: max(16px, var(--agm-safe-right, 0px));
+    --agm-mobile-section-gap: 0;
+  }
+
+  /* Homepage wrapper — no extra vertical gutters between islands */
+  .body-wrapper.page {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .pin-spacer {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #hs_cos_wrapper_hero,
   #hs_cos_wrapper_seaLiving,
   #hs_cos_wrapper_range,
   #hs_cos_wrapper_below,
@@ -20,10 +40,11 @@
 
   /* ── seaLiving (services carousel) ── */
   #seaLiving ._container_1im41_1 {
+    position: relative !important;
     width: 100% !important;
     max-width: 100% !important;
-    height: auto !important;
-    min-height: min(100svh, 680px) !important;
+    height: clamp(460px, 118vw, 580px) !important;
+    min-height: 0 !important;
     max-height: none !important;
     overflow: hidden !important;
   }
@@ -31,15 +52,14 @@
   #seaLiving ._section_1im41_10 {
     width: 100% !important;
     height: 100% !important;
-    min-height: min(100svh, 680px) !important;
+    min-height: 0 !important;
     background-size: cover !important;
     background-position: center center !important;
   }
 
   #seaLiving ._headingContainer_1im41_31 {
     left: 0 !important;
-    margin: max(20px, var(--agm-safe-top, 0px)) max(16px, var(--agm-safe-right, 0px)) 0
-      max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 14px var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
     max-width: 100% !important;
   }
 
@@ -55,19 +75,25 @@
 
   #seaLiving ._bottomContainer_1im41_56 {
     height: auto !important;
-    min-height: 58% !important;
+    min-height: 0 !important;
+    max-height: none !important;
     position: absolute !important;
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    gap: 10px !important;
+    padding-bottom: max(12px, var(--agm-safe-bottom, 0px)) !important;
   }
 
   #seaLiving ._leftContainer_1im41_64 {
     position: relative !important;
     left: 0 !important;
-    margin: 0 max(16px, var(--agm-safe-right, 0px)) 12px max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 0 var(--agm-mobile-pad-r) 8px var(--agm-mobile-pad) !important;
     min-width: 0 !important;
-    gap: 16px !important;
+    gap: 10px !important;
     flex-direction: column !important;
     align-items: flex-start !important;
   }
@@ -77,7 +103,7 @@
     all: unset !important;
     display: block !important;
     font-weight: 200 !important;
-    font-size: clamp(22px, 7vw, 36px) !important;
+    font-size: clamp(22px, 7vw, 34px) !important;
     line-height: 1.08 !important;
     letter-spacing: 0.02em !important;
     transform: none !important;
@@ -91,22 +117,21 @@
     right: 0 !important;
     top: 0 !important;
     transform: none !important;
-    margin: 0 max(16px, var(--agm-safe-right, 0px)) max(16px, var(--agm-safe-bottom, 0px))
-      max(16px, var(--agm-safe-left, 0px)) !important;
-    gap: 14px !important;
+    margin: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
+    gap: 10px !important;
     max-width: 100% !important;
   }
 
   #seaLiving ._rightContainer_1im41_117 > div {
     font-size: clamp(12px, 3.4vw, 14px) !important;
-    line-height: 1.5 !important;
+    line-height: 1.45 !important;
     max-width: 100% !important;
   }
 
   #seaLiving ._rightContainer_1im41_117 > a {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
-    padding: 6px 14px !important;
+    min-height: 36px !important;
+    padding: 4px 12px !important;
   }
 
   #seaLiving ._imgBox_1im41_154 {
@@ -114,12 +139,12 @@
     left: auto !important;
     bottom: auto !important;
     transform: none !important;
-    width: calc(100% - max(32px, calc(var(--agm-safe-left, 0px) + var(--agm-safe-right, 0px)))) !important;
+    width: calc(100% - var(--agm-mobile-pad) - var(--agm-mobile-pad-r)) !important;
     max-width: 100% !important;
     height: auto !important;
-    min-height: clamp(220px, 42vh, 360px) !important;
-    max-height: 42vh !important;
-    margin: 0 auto max(16px, var(--agm-safe-bottom, 0px)) !important;
+    min-height: clamp(140px, 28vh, 220px) !important;
+    max-height: 28vh !important;
+    margin: 0 auto 10px !important;
     padding: 0 !important;
     aspect-ratio: 311 / 420 !important;
   }
@@ -135,7 +160,7 @@
 
   #range ._rangeHeader_ws1t0_9 {
     width: 100% !important;
-    padding: 28px max(16px, var(--agm-safe-right, 0px)) 20px max(16px, var(--agm-safe-left, 0px)) !important;
+    padding: 18px var(--agm-mobile-pad-r) 12px var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -151,18 +176,18 @@
   }
 
   #range ._line_ws1t0_27 {
-    gap: 16px !important;
+    gap: 12px !important;
   }
 
   #range ._button_ws1t0_33 {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
-    padding: 8px 14px !important;
+    min-height: 36px !important;
+    padding: 6px 12px !important;
   }
 
   #range ._slLine_ws1t0_76 {
-    padding-left: max(16px, var(--agm-safe-left, 0px)) !important;
-    padding-right: max(16px, var(--agm-safe-right, 0px)) !important;
+    padding-left: var(--agm-mobile-pad) !important;
+    padding-right: var(--agm-mobile-pad-r) !important;
     flex-wrap: wrap !important;
     gap: 8px !important;
     justify-content: flex-start !important;
@@ -180,8 +205,8 @@
   }
 
   #range ._sliderWrapper_ws1t0_231 {
-    margin: 16px 0 !important;
-    padding: 0 max(16px, var(--agm-safe-right, 0px)) 0 max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 10px 0 !important;
+    padding: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -192,8 +217,8 @@
 
   #range ._iconsContainer_ws1t0_148 {
     width: 100% !important;
-    margin: 20px 0 40px !important;
-    padding: 0 max(16px, var(--agm-safe-right, 0px)) 0 max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 10px 0 12px !important;
+    padding: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -204,54 +229,67 @@
 
   #range ._rangeTitle_ws1t0_164 {
     font-size: clamp(18px, 5vw, 24px) !important;
-    margin-top: 24px !important;
-    padding: 0 max(16px, var(--agm-safe-right, 0px)) 0 max(16px, var(--agm-safe-left, 0px)) !important;
+    margin-top: 12px !important;
+    margin-bottom: 0 !important;
+    padding: 0 var(--agm-mobile-pad-r) 12px var(--agm-mobile-pad) !important;
   }
 
   #range ._contentWrapper_ws1t0_224 {
     height: auto !important;
+    min-height: 0 !important;
   }
 
   /* ── below (about, services, map, footer) ── */
   #below ._main_mirx2_1 {
     flex-direction: column !important;
     height: auto !important;
-    margin-bottom: 40px !important;
+    min-height: 0 !important;
+    margin-bottom: 0 !important;
     width: 100% !important;
   }
 
+  #below ._first_mirx2_8,
+  #below ._second_mirx2_56 {
+    flex: none !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
   #below ._first_mirx2_8 > h2 {
-    margin: 20px max(16px, var(--agm-safe-right, 0px)) 0 max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 16px var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
     font-size: clamp(9px, 2.4vw, 11px) !important;
     letter-spacing: 0.14em !important;
   }
 
   #below ._first_mirx2_8 > ._container_mirx2_26 {
-    margin: 16px max(16px, var(--agm-safe-right, 0px)) 28px max(16px, var(--agm-safe-left, 0px)) !important;
+    margin: 10px var(--agm-mobile-pad-r) 14px var(--agm-mobile-pad) !important;
     max-width: 100% !important;
+    height: auto !important;
     justify-content: flex-start !important;
-    gap: 16px !important;
+    gap: 12px !important;
   }
 
   #below ._first_mirx2_8 > ._container_mirx2_26 ._description_mirx2_36 {
     font-size: clamp(20px, 5.8vw, 28px) !important;
     line-height: 1.15 !important;
-    margin-bottom: 16px !important;
+    margin-bottom: 10px !important;
   }
 
   #below ._discover_mirx2_161 {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
-    padding: 8px 14px !important;
+    min-height: 36px !important;
+    padding: 6px 12px !important;
   }
 
   #below ._second_mirx2_56 > ._container_mirx2_26 {
     padding: 0 !important;
-    gap: 24px !important;
+    gap: 0 !important;
+    height: auto !important;
   }
 
   #below ._second_mirx2_56 > ._container_mirx2_26 > ._imgWrapper_mirx2_65 {
-    height: clamp(240px, 50vh, 400px) !important;
+    height: clamp(200px, 42vh, 300px) !important;
     width: 100% !important;
   }
 
@@ -259,8 +297,7 @@
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
-    padding: 16px max(16px, var(--agm-safe-right, 0px)) max(16px, var(--agm-safe-bottom, 0px))
-      max(16px, var(--agm-safe-left, 0px)) !important;
+    padding: 12px var(--agm-mobile-pad-r) max(12px, var(--agm-safe-bottom, 0px)) var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -272,19 +309,19 @@
     font-size: clamp(12px, 3.4vw, 14px) !important;
     line-height: 1.45 !important;
     max-width: 100% !important;
-    margin-top: 6px !important;
-    margin-bottom: 10px !important;
+    margin-top: 4px !important;
+    margin-bottom: 8px !important;
   }
 
   #below ._texts_mirx2_93 > a {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
+    min-height: 36px !important;
   }
 
   #below ._arrows_mirx2_85 {
     right: 0 !important;
-    padding-right: max(16px, var(--agm-safe-right, 0px)) !important;
-    padding-left: max(16px, var(--agm-safe-left, 0px)) !important;
+    padding-right: var(--agm-mobile-pad-r) !important;
+    padding-left: var(--agm-mobile-pad) !important;
     width: 100% !important;
     box-sizing: border-box !important;
   }
@@ -292,8 +329,8 @@
   /* Interiors / services grid */
   #below ._container_1tsw7_1 {
     width: 100% !important;
-    padding: 24px max(16px, var(--agm-safe-right, 0px)) 32px max(16px, var(--agm-safe-left, 0px)) !important;
-    margin-bottom: 40px !important;
+    padding: 16px var(--agm-mobile-pad-r) 18px var(--agm-mobile-pad) !important;
+    margin-bottom: 0 !important;
     box-sizing: border-box !important;
   }
 
@@ -309,39 +346,39 @@
 
   #below ._bottomContainer_1tsw7_37 {
     max-width: 100% !important;
-    margin-top: 16px !important;
-    margin-bottom: 24px !important;
-    gap: 12px !important;
+    margin-top: 10px !important;
+    margin-bottom: 12px !important;
+    gap: 10px !important;
   }
 
   #below ._bottomContainer_1tsw7_37 > div {
     font-size: clamp(13px, 3.6vw, 15px) !important;
-    line-height: 1.5 !important;
+    line-height: 1.45 !important;
   }
 
   #below ._discover_1tsw7_51 {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
-    padding: 8px 14px !important;
+    min-height: 36px !important;
+    padding: 6px 12px !important;
   }
 
   #below ._imgWrapper_1tsw7_65 {
     width: 100% !important;
-    max-height: clamp(220px, 45vh, 360px) !important;
+    max-height: clamp(180px, 38vh, 280px) !important;
     height: auto !important;
   }
 
   #below ._imagesRowMobile_1tsw7_170 {
-    margin-top: 16px !important;
-    padding: 0 max(16px, var(--agm-safe-right, 0px)) 0 max(16px, var(--agm-safe-left, 0px)) !important;
+    margin-top: 10px !important;
+    padding: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
   /* Map / contact */
   #below ._container_k2jxx_1 {
     width: 100% !important;
-    margin-top: 24px !important;
-    padding: 0 max(16px, var(--agm-safe-right, 0px)) 24px max(16px, var(--agm-safe-left, 0px)) !important;
+    margin-top: 0 !important;
+    padding: 14px var(--agm-mobile-pad-r) 16px var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
   }
 
@@ -366,13 +403,13 @@
   #below ._enquireContainer_k2jxx_41 {
     left: 0 !important;
     position: relative !important;
-    margin-top: 12px !important;
+    margin-top: 8px !important;
   }
 
   #below ._enquire_k2jxx_41 {
     font-size: clamp(11px, 3vw, 13px) !important;
-    min-height: 40px !important;
-    padding: 8px 14px !important;
+    min-height: 36px !important;
+    padding: 6px 12px !important;
   }
 
   #below ._topControls_k2jxx_258 {
@@ -383,16 +420,16 @@
 
   #below ._mapContainer_k2jxx_245 {
     width: 100% !important;
-    height: clamp(220px, 38vh, 300px) !important;
-    margin-top: 12px !important;
+    height: clamp(200px, 34vh, 260px) !important;
+    margin-top: 8px !important;
   }
 
   #below ._row_k2jxx_91 ._data_k2jxx_113:first-child {
-    margin-left: max(16px, var(--agm-safe-left, 0px)) !important;
+    margin-left: var(--agm-mobile-pad) !important;
   }
 
   #below ._row_k2jxx_91 ._data_k2jxx_113 {
-    flex: 0 0 min(280px, 78vw) !important;
+    flex: 0 0 min(260px, 76vw) !important;
   }
 
   #below ._dataTitle_k2jxx_160 {
@@ -406,7 +443,7 @@
   /* Footer */
   #below ._footerSection_ypmp5_1 {
     width: 100% !important;
-    margin-top: 8px !important;
+    margin-top: 0 !important;
   }
 
   #below ._footerContent_ypmp5_5 {
@@ -415,8 +452,9 @@
   }
 
   #below ._footerItem_ypmp5_14 {
-    padding: 18px max(16px, var(--agm-safe-right, 0px)) 18px max(16px, var(--agm-safe-left, 0px)) !important;
+    padding: 14px var(--agm-mobile-pad-r) 14px var(--agm-mobile-pad) !important;
     box-sizing: border-box !important;
+    min-height: 0 !important;
   }
 
   #below ._footerTitle_ypmp5_67 {
@@ -437,9 +475,8 @@
   }
 
   #below ._footerBottom_ypmp5_101 {
-    padding: 24px max(16px, var(--agm-safe-right, 0px)) max(20px, var(--agm-safe-bottom, 0px))
-      max(16px, var(--agm-safe-left, 0px)) !important;
-    gap: 20px !important;
+    padding: 16px var(--agm-mobile-pad-r) max(16px, var(--agm-safe-bottom, 0px)) var(--agm-mobile-pad) !important;
+    gap: 14px !important;
   }
 
   #below ._footerLinks_ypmp5_110,
@@ -449,7 +486,7 @@
   }
 
   #below ._linksContainer_ypmp5_139 {
-    column-gap: 24px !important;
-    row-gap: 12px !important;
+    column-gap: 20px !important;
+    row-gap: 10px !important;
   }
 }

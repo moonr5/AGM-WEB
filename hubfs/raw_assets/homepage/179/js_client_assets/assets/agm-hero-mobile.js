@@ -101,6 +101,7 @@
       if (spacer.querySelector("#hero") || spacer.contains(hero)) {
         spacer.style.height = "auto";
         spacer.style.minHeight = "0";
+        spacer.style.maxHeight = "none";
         spacer.style.padding = "0";
         spacer.style.margin = "0";
         killed = true;

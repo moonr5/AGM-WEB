@@ -1,5 +1,7 @@
 # AGM Local Site
 
+> **Main documentation:** see [README.md](./README.md) and [docs/](./docs/).
+
 This backup is a static mirror, so it needs to be served from the site root instead of opened by double-clicking an HTML file.
 
 Run:
