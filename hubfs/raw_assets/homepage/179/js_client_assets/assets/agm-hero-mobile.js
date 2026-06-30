@@ -49,6 +49,31 @@
     root.style.setProperty("--agm-appbar-h", appbarH + "px");
     root.style.setProperty("--agm-hero-h", heroH + "px");
     root.style.setProperty("--agm-hero-copy-h", copyH + "px");
+    fixHeroPinSpacer(heroH);
+  }
+
+  function readHeroHeightPx() {
+    var root = document.documentElement;
+    var raw = root.style.getPropertyValue("--agm-hero-h") || getComputedStyle(root).getPropertyValue("--agm-hero-h");
+    raw = (raw || "").trim();
+    if (raw) return raw;
+    return "calc(100svh - var(--agm-appbar-h, 60px) - var(--agm-safe-top, 0px))";
+  }
+
+  /** Pin-spacer must equal hero height — height:0 hid the entire hero. */
+  function fixHeroPinSpacer(heroHPx) {
+    if (!isMobile()) return;
+    var heroH = heroHPx ? heroHPx + "px" : readHeroHeightPx();
+    document.querySelectorAll(".pin-spacer").forEach(function (spacer) {
+      if (spacer.querySelector("#hero") || spacer.querySelector("._pinnedSection_biyw3_1")) {
+        spacer.style.height = heroH;
+        spacer.style.minHeight = heroH;
+        spacer.style.maxHeight = heroH;
+        spacer.style.padding = "0";
+        spacer.style.margin = "0";
+        spacer.style.overflow = "visible";
+      }
+    });
   }
 
   function syncHeroMode() {
@@ -99,13 +124,8 @@
     });
 
     document.querySelectorAll(".pin-spacer").forEach(function (spacer) {
-      if (spacer.querySelector("#hero") || spacer.contains(hero)) {
-        spacer.style.height = "0";
-        spacer.style.minHeight = "0";
-        spacer.style.maxHeight = "none";
-        spacer.style.padding = "0";
-        spacer.style.margin = "0";
-        spacer.style.overflow = "hidden";
+      if (spacer.querySelector("#hero") || spacer.querySelector("._pinnedSection_biyw3_1")) {
+        fixHeroPinSpacer();
         killed = true;
       }
     });
@@ -118,20 +138,22 @@
   /** Keep native touch scroll working on mobile homepage. */
   function ensureMobileScroll() {
     if (!isMobile()) return;
-    document.body.style.overflow = "auto";
-    document.body.style.height = "auto";
-    document.documentElement.style.overflow = "auto";
-    document.documentElement.style.height = "auto";
-    if (window.disableScroll !== undefined) {
+    if (window.disableScroll) {
       window.disableScroll = false;
     }
-    var hero = document.querySelector("#hero ._pinnedSection_biyw3_1");
-    if (hero && getComputedStyle(hero).position === "fixed") {
-      hero.style.position = "relative";
-      hero.style.top = "auto";
-      hero.style.left = "auto";
-      hero.style.width = "100%";
-      hero.style.transform = "none";
+    if (document.body.style.overflow === "hidden") {
+      document.body.style.overflow = "auto";
+    }
+    if (document.documentElement.style.overflow === "hidden") {
+      document.documentElement.style.overflow = "auto";
+    }
+    var pinned = document.querySelector("#hero ._pinnedSection_biyw3_1");
+    if (pinned && getComputedStyle(pinned).position === "fixed") {
+      pinned.style.position = "relative";
+      pinned.style.top = "auto";
+      pinned.style.left = "auto";
+      pinned.style.width = "100%";
+      pinned.style.transform = "none";
     }
   }
 
@@ -139,20 +161,33 @@
     if (!isMobile()) return;
 
     var attempts = 0;
+    var stable = 0;
     var timer = setInterval(function () {
       attempts += 1;
+      var pinned = document.querySelector("#hero ._pinnedSection_biyw3_1");
+      var pinOk =
+        pinned &&
+        getComputedStyle(pinned).position !== "fixed" &&
+        pinned.getBoundingClientRect().height > 200;
       disableHeroScrollPin();
       ensureMobileScroll();
-      if (attempts >= 48) clearInterval(timer);
+      if (pinOk) {
+        stable += 1;
+      } else {
+        stable = 0;
+      }
+      if (stable >= 3 || attempts >= 48) clearInterval(timer);
     }, 250);
 
-    window.addEventListener("load", function () {
-      disableHeroScrollPin();
-      ensureMobileScroll();
-    }, { once: true });
-
-    window.addEventListener("scroll", ensureMobileScroll, { passive: true });
-    window.addEventListener("touchstart", ensureMobileScroll, { passive: true });
+    window.addEventListener(
+      "load",
+      function () {
+        disableHeroScrollPin();
+        ensureMobileScroll();
+        fixHeroPinSpacer();
+      },
+      { once: true },
+    );
   }
 
   function init() {

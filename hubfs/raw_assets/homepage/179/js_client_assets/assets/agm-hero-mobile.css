@@ -3,16 +3,16 @@
  * Fullscreen edge-to-edge; stacked bottom copy (no overlap).
  */
 @media (max-width: 768px) {
-  /* GSAP pin-spacer from desktop hero scroll — collapse on mobile */
+  /* GSAP pin-spacer wraps hero — must match hero height, NOT zero */
   .pin-spacer:has(#hero),
-  #hs_cos_wrapper_hero.pin-spacer,
-  #hs_cos_wrapper_hero + .pin-spacer {
-    height: 0 !important;
-    min-height: 0 !important;
-    max-height: none !important;
+  .pin-spacer:has(._pinnedSection_biyw3_1),
+  #hs_cos_wrapper_hero.pin-spacer {
+    height: var(--agm-hero-h, calc(100svh - var(--agm-appbar-h, 60px) - var(--agm-safe-top, 0px))) !important;
+    min-height: var(--agm-hero-h, calc(100svh - var(--agm-appbar-h, 60px) - var(--agm-safe-top, 0px))) !important;
+    max-height: var(--agm-hero-h, calc(100svh - var(--agm-appbar-h, 60px) - var(--agm-safe-top, 0px))) !important;
     padding: 0 !important;
     margin: 0 !important;
-    overflow: hidden !important;
+    overflow: visible !important;
   }
 
   #hs_cos_wrapper_hero,
@@ -26,6 +26,8 @@
     overflow: hidden !important;
     z-index: 1 !important;
     isolation: isolate;
+    min-height: var(--agm-hero-h, calc(100svh - var(--agm-appbar-h, 60px) - var(--agm-safe-top, 0px))) !important;
+    height: auto !important;
   }
 
   #hero ._pinnedSection_biyw3_1 {
@@ -58,6 +60,7 @@
     inset: 0 !important;
     opacity: 1 !important;
     width: 100% !important;
+    max-width: 100% !important;
     height: 100% !important;
     display: block !important;
     background: transparent !important;
