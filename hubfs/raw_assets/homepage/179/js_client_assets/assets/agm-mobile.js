@@ -3,6 +3,19 @@
     document.documentElement.style.setProperty("--agm-vh", window.innerHeight + "px");
   }
 
+  function setAppbarHeight() {
+    if (!window.matchMedia("(max-width: 1200px)").matches) {
+      document.documentElement.style.removeProperty("--agm-appbar-h");
+      return;
+    }
+    var bar = document.querySelector(".appbar-wrapper");
+    if (!bar) return;
+    document.documentElement.style.setProperty(
+      "--agm-appbar-h",
+      Math.max(60, Math.ceil(bar.getBoundingClientRect().height)) + "px"
+    );
+  }
+
   function ensureViewportMeta() {
     const meta = document.querySelector('meta[name="viewport"]');
     if (!meta) return;
@@ -23,10 +36,14 @@
   function init() {
     ensureViewportMeta();
     setViewportHeight();
+    setAppbarHeight();
     var resizeTimer;
     function onResize() {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(setViewportHeight, 100);
+      resizeTimer = setTimeout(function () {
+        setViewportHeight();
+        setAppbarHeight();
+      }, 100);
     }
     window.addEventListener("resize", onResize, { passive: true });
     window.addEventListener("orientationchange", setViewportHeight, { passive: true });

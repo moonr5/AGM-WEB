@@ -1,10 +1,9 @@
 /**
  * AGM hero — mobile enhancements (max-width: 768px only).
- * Sets --agm-hero-h for true fullscreen below fixed appbar on all phone sizes.
+ * Sets --agm-hero-h and --agm-appbar-h for true fullscreen on all phone sizes.
  */
 (function () {
   var MQ = "(max-width: 768px)";
-  var APPBAR_H = 60;
 
   function isMobile() {
     return window.matchMedia(MQ).matches;
@@ -20,27 +19,48 @@
     return top;
   }
 
-  function setHeroHeight() {
+  function readAppbarHeight() {
+    var bar = document.querySelector(".appbar-wrapper");
+    if (!bar) return 60;
+    return Math.max(60, Math.ceil(bar.getBoundingClientRect().height));
+  }
+
+  function readCopyHeight() {
+    var content = document.querySelector("#hero ._contentSpace_ty1x2_38");
+    if (!content) return 120;
+    return Math.max(96, Math.ceil(content.getBoundingClientRect().height) + 12);
+  }
+
+  function setHeroMetrics() {
     var root = document.documentElement;
     if (!isMobile()) {
       root.style.removeProperty("--agm-hero-h");
+      root.style.removeProperty("--agm-appbar-h");
+      root.style.removeProperty("--agm-hero-copy-h");
       return;
     }
 
+    var appbarH = readAppbarHeight();
     var vv = window.visualViewport;
     var viewportH = vv && vv.height ? vv.height : window.innerHeight;
-    var heroH = Math.max(280, Math.round(viewportH - APPBAR_H - readSafeTop()));
+    var heroH = Math.max(280, Math.round(viewportH - appbarH - readSafeTop()));
+    var copyH = readCopyHeight();
+
+    root.style.setProperty("--agm-appbar-h", appbarH + "px");
     root.style.setProperty("--agm-hero-h", heroH + "px");
+    root.style.setProperty("--agm-hero-copy-h", copyH + "px");
   }
 
   function syncHeroMode() {
     var root = document.documentElement;
     if (isMobile()) {
       root.classList.add("agm-hero-is-mobile");
-      setHeroHeight();
+      setHeroMetrics();
     } else {
       root.classList.remove("agm-hero-is-mobile");
       root.style.removeProperty("--agm-hero-h");
+      root.style.removeProperty("--agm-appbar-h");
+      root.style.removeProperty("--agm-hero-copy-h");
     }
   }
 
@@ -56,13 +76,29 @@
     var resizeTimer;
     function onResize() {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(setHeroHeight, 80);
+      resizeTimer = setTimeout(setHeroMetrics, 80);
     }
     window.addEventListener("resize", onResize, { passive: true });
-    window.addEventListener("orientationchange", setHeroHeight, { passive: true });
+    window.addEventListener("orientationchange", setHeroMetrics, { passive: true });
     if (window.visualViewport) {
       window.visualViewport.addEventListener("resize", onResize, { passive: true });
     }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(setHeroMetrics);
+    }
+
+    var heroObserverTimer;
+    function observeHero() {
+      var hero = document.querySelector("#hero");
+      if (!hero) return;
+      new MutationObserver(function () {
+        if (!isMobile()) return;
+        clearTimeout(heroObserverTimer);
+        heroObserverTimer = setTimeout(setHeroMetrics, 150);
+      }).observe(hero, { childList: true, subtree: true, characterData: true });
+    }
+    observeHero();
   }
 
   if (document.readyState === "loading") {
