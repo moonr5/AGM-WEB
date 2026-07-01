@@ -196,15 +196,16 @@
     max-width: 100% !important;
   }
 
-  /* Broken metric scale images (e.g. scale_5_m.svg 404) — hide on mobile */
   #range ._iconsContainer_ws1t0_148 {
-    display: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    height: 0 !important;
-    min-height: 0 !important;
-    overflow: hidden !important;
-    visibility: hidden !important;
+    width: 100% !important;
+    margin: 10px 0 12px !important;
+    padding: 0 var(--agm-mobile-pad-r) 0 var(--agm-mobile-pad) !important;
+    box-sizing: border-box !important;
+  }
+
+  #range ._iconsContainer_ws1t0_148 > img {
+    width: 100% !important;
+    height: auto !important;
   }
 
   #range ._rangeTitle_ws1t0_164 {
